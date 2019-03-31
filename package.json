@@ -1,0 +1,35 @@
+{
+  "name": "detour-backend",
+  "version": "1.0.0",
+  "description": "DeTour compares different tour groups' offerings in different countries.  App uses React/Redux frontend and Node/Express/MongoDB backend.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronsbons/detour-backend.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "React",
+    "Redux",
+    "travel",
+    "tour"
+  ],
+  "author": "Ronni Louie ronnilouie@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronsbons/detour-backend/issues"
+  },
+  "homepage": "https://github.com/ronsbons/detour-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10"
+  }
+}
