@@ -3,7 +3,9 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // const routes = require('./routes/user.js');
-// const db = require('./models');
+
+// will access index.js in models automatically
+const db = require('./models');
 
 const app = express();
 
