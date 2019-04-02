@@ -37,6 +37,162 @@ const newCountries = [
     countryName: 'Zimbabwe',
     countryPhoto: ''
   },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'China',
+    countryPhoto: ''
+  },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'India',
+    countryPhoto: ''
+  },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'Indonesia',
+    countryPhoto: ''
+  },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'Japan',
+    countryPhoto: ''
+  },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'Thailand',
+    countryPhoto: ''
+  },
+  {
+    // region_id 2 = Asia
+    region_id: 2,
+    countryName: 'Vietnam',
+    countryPhoto: ''
+  },
+  {
+    // region_id 3 = Australia
+    region_id: 3,
+    countryName: 'Australia',
+    countryPhoto: ''
+  },
+  {
+    // region_id 3 = Australia
+    region_id: 3,
+    countryName: 'New Zealand',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'Croatia',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'France',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'Greece',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'Italy',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'Norway',
+    countryPhoto: ''
+  },
+  {
+    // region_id 4 = Europe
+    region_id: 4,
+    countryName: 'Spain',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'Belize',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'Canada',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'Costa Rica',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'Guatemala',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'Mexico',
+    countryPhoto: ''
+  },
+  {
+    // region_id 5 = North America
+    region_id: 5,
+    countryName: 'United States',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Argentina',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Brazil',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Colombia',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Ecuador',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Galapagos Islands',
+    countryPhoto: ''
+  },
+  {
+    // region_id 6 = South America
+    region_id: 6,
+    countryName: 'Peru',
+    countryPhoto: ''
+  },
 ]
 
 db.Country.deleteMany({}, (error, countries) => {
