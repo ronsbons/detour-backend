@@ -1,7 +1,7 @@
 const db = require('./models');
 
-// starting with 1 for each African country first
 const newTours = [
+  // =================  Africa tours  =================
   {
     company: 'G Adventures',
     name: 'Discover Ethiopia',
@@ -191,6 +191,308 @@ const newTours = [
     link: 'https://www.topdeck.travel/tours/african-insight', 
     // Zimbabwe
     primary_country_id: '5ca3c7c3143e781b614f004f',
+  },
+  // =================  Asia tours  =================
+  {
+    company: 'G Adventures',
+    name: 'Essential China',
+    length: 21,
+    cost: '$2849',
+    countries_visited: ['China'],
+    link: 'https://www.gadventures.com/trips/essential-china/ACEC/', 
+    // China
+    primary_country_id: '5ca3c7c3143e781b614f0050',
+  },
+  {
+    company: 'Contiki',
+    name: 'China Adventure',
+    length: 12,
+    cost: '$2639',
+    countries_visited: ['China'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/china-adventure-3650', 
+    // China
+    primary_country_id: '5ca3c7c3143e781b614f0050',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Excite your senses in bucket-list China',
+    length: 12,
+    cost: '$4259',
+    countries_visited: ['China'],
+    link: 'https://www.flashpack.com/adventure-trips/china-small-group-adventure-solo-travellers-2/', 
+    // China
+    primary_country_id: '5ca3c7c3143e781b614f0050',
+  },
+  {
+    company: 'Topdeck',
+    name: 'China Live',
+    length: 12,
+    cost: '$2399',
+    countries_visited: ['China'],
+    link: 'https://www.topdeck.travel/tours/china-live', 
+    // China
+    primary_country_id: '5ca3c7c3143e781b614f0050',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Delhi to Kathmandu Adventure',
+    length: 15,
+    cost: '$1199',
+    countries_visited: ['India', 'Nepal'],
+    link: 'https://www.gadventures.com/trips/delhi-to-kathmandu-adventure/AHDK/', 
+    // India
+    primary_country_id: '5ca3c7c3143e781b614f0051',
+  },
+  {
+    company: 'Contiki',
+    name: 'Eternal India',
+    length: 12,
+    cost: '$2314',
+    countries_visited: ['India', 'Nepal'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/eternal-india-3026', 
+    // India
+    primary_country_id: '5ca3c7c3143e781b614f0051',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Awaken your senses in northern India',
+    length: 10,
+    cost: '$2479',
+    countries_visited: ['India'],
+    link: 'https://www.flashpack.com/adventure-trips/north-india-small-group-adventure-solo-travellers/', 
+    // India
+    primary_country_id: '5ca3c7c3143e781b614f0051',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Epic Japan',
+    length: 11,
+    cost: '$2209',
+    countries_visited: ['Japan'],
+    link: 'https://www.gadventures.com/trips/epic-japan/AJTO/', 
+    // Japan
+    primary_country_id: '5ca3c7c3143e781b614f0053',
+  },
+  {
+    company: 'Contiki',
+    name: 'Japan Winter Wonder',
+    length: 10,
+    cost: '$2945',
+    countries_visited: ['Japan'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/japan-winter-wonder-3681', 
+    // Japan
+    primary_country_id: '5ca3c7c3143e781b614f0053',
+  },
+  {
+    company: 'Contiki',
+    name: 'Japan Winter Wonder',
+    length: 10,
+    cost: '$2945',
+    countries_visited: ['Japan'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/japan-winter-wonder-3681', 
+    // Japan
+    primary_country_id: '5ca3c7c3143e781b614f0053',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'A sensory journey to Japan',
+    length: 13,
+    cost: '$5659',
+    countries_visited: ['Japan'],
+    link: 'https://www.flashpack.com/adventure-trips/japan-small-group-tour-solo-travellers/', 
+    // Japan
+    primary_country_id: '5ca3c7c3143e781b614f0053',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Japan Express',
+    length: 7,
+    cost: '$1334',
+    countries_visited: ['Japan'],
+    link: 'https://www.topdeck.travel/tours/japan-express', 
+    // Japan
+    primary_country_id: '5ca3c7c3143e781b614f0053',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Best of Java',
+    length: 9,
+    cost: '$1104',
+    countries_visited: ['Indonesia'],
+    link: 'https://www.gadventures.com/trips/best-of-java/AEJV/', 
+    // Indonesia
+    primary_country_id: '5ca3c7c3143e781b614f0052',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Jurassic Beauty & Dragon Encounters in Java',
+    length: 9,
+    cost: '$3649',
+    countries_visited: ['Indonesia'],
+    link: 'https://www.flashpack.com/adventure-trips/komodo-flores-small-group-tour-solo-travellers/', 
+    // Indonesia
+    primary_country_id: '5ca3c7c3143e781b614f0052',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Bali Island Hopper',
+    length: 7,
+    cost: '$679',
+    countries_visited: ['Indonesia'],
+    link: 'https://www.topdeck.travel/tours/search#/tours/search?regions=2515&countries=2566', 
+    // Indonesia
+    primary_country_id: '5ca3c7c3143e781b614f0052',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Indochina Discovery',
+    length: 30,
+    cost: '$2499',
+    countries_visited: ['Thailand', 'Vietnam', 'Cambodia', 'Laos'],
+    link: 'https://www.gadventures.com/trips/indochina-discovery/ATID/', 
+    // Thailand
+    primary_country_id: '5ca3c7c3143e781b614f0054',
+  },
+  {
+    company: 'Contiki',
+    name: 'Total Thailand',
+    length: 16,
+    cost: '$2544',
+    countries_visited: ['Thailand'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/total-thailand-3819', 
+    // Thailand
+    primary_country_id: '5ca3c7c3143e781b614f0054',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Tropical beauty & paradise sands in Thailand',
+    length: 9,
+    cost: '$2639',
+    countries_visited: ['Thailand'],
+    link: 'https://www.flashpack.com/adventure-trips/thailand-small-group-tour-solo-travellers/', 
+    // Thailand
+    primary_country_id: '5ca3c7c3143e781b614f0054',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Thailand Express',
+    length: 6,
+    cost: '$594',
+    countries_visited: ['Thailand'],
+    link: 'https://www.topdeck.travel/tours/thailand-express', 
+    // Thailand
+    primary_country_id: '5ca3c7c3143e781b614f0054',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Indochina Discovery',
+    length: 30,
+    cost: '$2499',
+    countries_visited: ['Thailand', 'Vietnam', 'Cambodia', 'Laos'],
+    link: 'https://www.gadventures.com/trips/indochina-discovery/ATID/',
+    // Vietnam
+    primary_country_id: '5ca3c7c3143e781b614f0055',
+  },
+  {
+    company: 'Contiki',
+    name: 'Vietnam Experience',
+    length: 12,
+    cost: '$1656',
+    countries_visited: ['Vietnam'],
+    link: 'https://www.contiki.com/us/en/destinations/asia/tours/vietnam-experience-220',
+    // Vietnam
+    primary_country_id: '5ca3c7c3143e781b614f0055',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Discover the heart of Southeast Asia',
+    length: 9,
+    cost: '$2839',
+    countries_visited: ['Vietnam', 'Thailand', 'Cambodia'],
+    link: 'https://www.flashpack.com/adventure-trips/south-east-asia-small-group-tour-solo-travellers/',
+    // Vietnam
+    primary_country_id: '5ca3c7c3143e781b614f0055',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Vietnam Uncovered',
+    length: 13,
+    cost: '$1444',
+    countries_visited: ['Vietnam'],
+    link: 'https://www.topdeck.travel/tours/vietnam-uncovered',
+    // Vietnam
+    primary_country_id: '5ca3c7c3143e781b614f0055',
+  },
+  // =================  Australia tours  =================
+  {
+    company: 'G Adventures',
+    name: 'Complete Australia',
+    length: 28,
+    cost: '$4159',
+    countries_visited: ['Australia'],
+    link: 'https://www.gadventures.com/trips/complete-australia/OAMC/',
+    // Australia
+    primary_country_id: '5ca3c7c3143e781b614f0056',
+  },
+  {
+    company: 'Contiki',
+    name: 'The Big Walkabout',
+    length: 20,
+    cost: '$3859',
+    countries_visited: ['Australia'],
+    link: 'https://www.contiki.com/us/en/destinations/australia/tours/the-big-walkabout-start-sydney-3706',
+    // Australia
+    primary_country_id: '5ca3c7c3143e781b614f0056',
+  },
+  {
+    company: 'Flash Pack',
+    name: `A bucket-list escape to Australia's East Coast`,
+    length: 14,
+    cost: '$5389',
+    countries_visited: ['Australia'],
+    link: 'https://www.flashpack.com/adventure-trips/australia-small-group-adventure-solo-travellers-2/',
+    // Australia
+    primary_country_id: '5ca3c7c3143e781b614f0056',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Ultimate Surfari',
+    length: 4,
+    cost: '$719',
+    countries_visited: ['Australia'],
+    link: 'https://www.topdeck.travel/tours/ultimate-surfari',
+    // Australia
+    primary_country_id: '5ca3c7c3143e781b614f0056',
+  },
+  {
+    company: 'G Adventures',
+    name: 'New Zealand - South Island Encompassed',
+    length: 16,
+    cost: '$1839',
+    countries_visited: ['New Zealand'],
+    link: 'https://www.gadventures.com/trips/new-zealand-south-island-encompassed/ONSE/',
+    // New Zealand
+    primary_country_id: '5ca3c7c3143e781b614f0057',
+  },
+  {
+    company: 'Contiki',
+    name: 'The Big Tiki',
+    length: 19,
+    cost: '$2975',
+    countries_visited: ['New Zealand'],
+    link: 'https://www.contiki.com/us/en/destinations/new-zealand/tours/the-big-tiki-auckland-to-christchurch-winter-3663',
+    // New Zealand
+    primary_country_id: '5ca3c7c3143e781b614f0057',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Sweet As North',
+    length: 5,
+    cost: '$679',
+    countries_visited: ['New Zealand'],
+    link: 'https://www.topdeck.travel/tours/sweet-as-north',
+    // New Zealand
+    primary_country_id: '5ca3c7c3143e781b614f0057',
   },
 ]
 
