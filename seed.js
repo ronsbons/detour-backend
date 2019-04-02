@@ -4,38 +4,38 @@ const newCountries = [
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'Ethiopia',
-    locationPhoto: ''
+    countryName: 'Ethiopia',
+    countryPhoto: ''
   },
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'Kenya',
-    locationPhoto: ''
+    countryName: 'Kenya',
+    countryPhoto: ''
   },
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'South Africa',
-    locationPhoto: ''
+    countryName: 'South Africa',
+    countryPhoto: ''
   },
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'Tanzania',
-    locationPhoto: ''
+    countryName: 'Tanzania',
+    countryPhoto: ''
   },
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'Uganda',
-    locationPhoto: ''
+    countryName: 'Uganda',
+    countryPhoto: ''
   },
   {
     // region_id 1 = Africa
     region_id: 1,
-    locationName: 'Zimbabwe',
-    locationPhoto: ''
+    countryName: 'Zimbabwe',
+    countryPhoto: ''
   },
 ]
 

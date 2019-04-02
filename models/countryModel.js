@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 const CountrySchema = new Schema({
   region_id: Number,
-  locationName: String,
-  locationPhoto: String
+  countryName: String,
+  countryPhoto: String
 });
 
 // .model('modelName', schema)
