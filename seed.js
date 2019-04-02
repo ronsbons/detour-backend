@@ -195,6 +195,7 @@ const newCountries = [
   },
 ]
 
+
 db.Country.deleteMany({}, (error, countries) => {
   if (error) {
     console.log(`can't delete countries: ${error}`);
