@@ -10,7 +10,7 @@ const gAdvTours = [
     countries_visited: ['Ethiopia'],
     link: 'https://www.gadventures.com/trips/discover-ethiopia/DEAA/', 
     // Ethiopia
-    primary_country_id: '5ca2dfffb0560602a04a5cab',
+    primary_country_id: '5ca3c7c3143e781b614f004a',
   },
   {
     company: 'G Adventures',
@@ -20,7 +20,7 @@ const gAdvTours = [
     countries_visited: ['Kenya', 'Malawi', 'Tanzania', 'Zambia', 'Zimbabwe'],
     link: 'https://www.gadventures.com/trips/serengeti-to-victoria-falls-adventure/DNV/', 
     // Kenya
-    primary_country_id: '5ca2dfffb0560602a04a5cac',
+    primary_country_id: '5ca3c7c3143e781b614f004b',
   },
   {
     company: 'G Adventures',
@@ -30,7 +30,7 @@ const gAdvTours = [
     countries_visited: ['South Africa', 'Namibia'],
     link: 'https://www.gadventures.com/trips/cape-dunes-overland-southbound/DNDO/', 
     // South Africa
-    primary_country_id: '5ca2dfffb0560602a04a5cad',
+    primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
     company: 'G Adventures',
@@ -40,7 +40,7 @@ const gAdvTours = [
     countries_visited: ['Uganda'],
     link: 'https://www.gadventures.com/trips/uganda-gorillas-overland/DUKK/', 
     // Uganda
-    primary_country_id: '5ca2dfffb0560602a04a5caf',
+    primary_country_id: '5ca3c7c3143e781b614f004e',
   },
   {
     company: 'G Adventures',
@@ -50,7 +50,7 @@ const gAdvTours = [
     countries_visited: ['Tanzania'],
     link: 'https://www.gadventures.com/trips/mt-kilimanjaro-trek-marangu-route/DTKM/', 
     // Tanzania
-    primary_country_id: '5ca2dfffb0560602a04a5cae',
+    primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
     company: 'G Adventures',
@@ -60,7 +60,7 @@ const gAdvTours = [
     countries_visited: ['Kenya', 'Malawi', 'Tanzania', 'Zambia', 'Zimbabwe'],
     link: 'https://www.gadventures.com/trips/serengeti-to-victoria-falls-adventure/DNV/', 
     // Zimbabwe
-    primary_country_id: '5ca2dfffb0560602a04a5cb0',
+    primary_country_id: '5ca3c7c3143e781b614f004f',
   },
 ]
 
