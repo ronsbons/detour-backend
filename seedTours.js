@@ -3,7 +3,7 @@ const db = require('./models');
 const newTours = [
   // =================  Africa tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Discover Ethiopia',
     length: 10,
     cost: '$2349',
@@ -13,7 +13,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004a',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -23,7 +23,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004b',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Cape & Dunes Overland',
     length: 14,
     cost: '$1349',
@@ -33,7 +33,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Uganda & Gorillas Overland',
     length: 9,
     cost: '$1879',
@@ -43,7 +43,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004e',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Mt. Kilimanjaro Trek - Marangu Route',
     length: 7,
     cost: '$2337',
@@ -53,7 +53,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -63,7 +63,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004f',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'East Africa Safari',
     length: 13,
     cost: '$4299',
@@ -73,7 +73,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004b',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Cape, Safari & Falls',
     length: 11,
     cost: '$2365',
@@ -83,7 +83,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Gorilla Trek',
     length: 4,
     cost: '$2635',
@@ -93,7 +93,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004e',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Rongai Kili Climb',
     length: 8,
     cost: '$2595',
@@ -103,7 +103,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Cape, Safari & Falls',
     length: 11,
     cost: '$2365',
@@ -113,7 +113,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004f',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Smash your comfort zone in South Africa',
     length: 13,
     cost: '$4849',
@@ -123,7 +123,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Be wowed by the wonders of Tanzania',
     length: 9,
     cost: '$4514',
@@ -133,7 +133,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Epic safari in Zimbabwe & Botswana',
     length: 9,
     cost: '$4049',
@@ -143,7 +143,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004f',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Gorilla Encounter',
     length: 14,
     cost: '$1650',
@@ -153,7 +153,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004b',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Kruger, Swazi & Beach',
     length: 7,
     cost: '$715',
@@ -163,7 +163,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Troop to the Gorillas',
     length: 6,
     cost: '$1015',
@@ -173,7 +173,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004e',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Highlights of Tanzania',
     length: 11,
     cost: '$1695',
@@ -183,7 +183,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'African Insight',
     length: 7,
     cost: '$1210',
@@ -194,7 +194,7 @@ const newTours = [
   },
   // =================  Asia tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Essential China',
     length: 21,
     cost: '$2849',
@@ -204,7 +204,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0050',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'China Adventure',
     length: 12,
     cost: '$2639',
@@ -214,7 +214,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0050',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Excite your senses in bucket-list China',
     length: 12,
     cost: '$4259',
@@ -224,7 +224,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0050',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'China Live',
     length: 12,
     cost: '$2399',
@@ -234,7 +234,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0050',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Delhi to Kathmandu Adventure',
     length: 15,
     cost: '$1199',
@@ -244,7 +244,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0051',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Eternal India',
     length: 12,
     cost: '$2314',
@@ -254,7 +254,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0051',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Awaken your senses in northern India',
     length: 10,
     cost: '$2479',
@@ -264,7 +264,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0051',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Epic Japan',
     length: 11,
     cost: '$2209',
@@ -274,7 +274,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0053',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Japan Winter Wonder',
     length: 10,
     cost: '$2945',
@@ -284,17 +284,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0053',
   },
   {
-    company: 'Contiki',
-    name: 'Japan Winter Wonder',
-    length: 10,
-    cost: '$2945',
-    countries_visited: ['Japan'],
-    link: 'https://www.contiki.com/us/en/destinations/asia/tours/japan-winter-wonder-3681', 
-    // Japan
-    primary_country_id: '5ca3c7c3143e781b614f0053',
-  },
-  {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'A sensory journey to Japan',
     length: 13,
     cost: '$5659',
@@ -304,7 +294,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0053',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Japan Express',
     length: 7,
     cost: '$1334',
@@ -314,7 +304,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0053',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Best of Java',
     length: 9,
     cost: '$1104',
@@ -324,7 +314,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0052',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Jurassic Beauty & Dragon Encounters in Java',
     length: 9,
     cost: '$3649',
@@ -334,7 +324,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0052',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Bali Island Hopper',
     length: 7,
     cost: '$679',
@@ -344,7 +334,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0052',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -354,7 +344,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0054',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Total Thailand',
     length: 16,
     cost: '$2544',
@@ -364,7 +354,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0054',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Tropical beauty & paradise sands in Thailand',
     length: 9,
     cost: '$2639',
@@ -374,7 +364,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0054',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Thailand Express',
     length: 6,
     cost: '$594',
@@ -384,7 +374,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0054',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -394,7 +384,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0055',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Vietnam Experience',
     length: 12,
     cost: '$1656',
@@ -404,7 +394,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0055',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Discover the heart of Southeast Asia',
     length: 9,
     cost: '$2839',
@@ -414,7 +404,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0055',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Vietnam Uncovered',
     length: 13,
     cost: '$1444',
@@ -425,7 +415,7 @@ const newTours = [
   },
   // =================  Australia tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Complete Australia',
     length: 28,
     cost: '$4159',
@@ -435,7 +425,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0056',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'The Big Walkabout',
     length: 20,
     cost: '$3859',
@@ -445,7 +435,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0056',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: `A bucket-list escape to Australia's East Coast`,
     length: 14,
     cost: '$5389',
@@ -455,7 +445,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0056',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Ultimate Surfari',
     length: 4,
     cost: '$719',
@@ -465,7 +455,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0056',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'New Zealand - South Island Encompassed',
     length: 16,
     cost: '$1839',
@@ -475,7 +465,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0057',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'The Big Tiki',
     length: 19,
     cost: '$2975',
@@ -485,7 +475,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0057',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Sweet As North',
     length: 5,
     cost: '$679',
@@ -496,7 +486,7 @@ const newTours = [
   },
   // =================  Europe tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Sailing Croatia - Split to Dubrovnik',
     length: 8,
     cost: '$1087',
@@ -506,7 +496,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0058',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Croatia Island Escape',
     length: 9,
     cost: '$1116',
@@ -516,7 +506,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0058',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Experience the beauty of coastal Croatia',
     length: 6,
     cost: '$2154',
@@ -526,7 +516,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0058',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Eastern Discovery',
     length: 8,
     cost: '$1289',
@@ -536,7 +526,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0058',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -546,7 +536,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0059',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'European Adventurer',
     length: 38,
     cost: '$5842',
@@ -556,7 +546,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0059',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Southern Runner',
     length: 7,
     cost: '$899',
@@ -566,7 +556,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0059',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Sailing Greece',
     length: 8,
     cost: '$929',
@@ -576,7 +566,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005a',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Greek Island Hopping',
     length: 13,
     cost: '$2420',
@@ -586,7 +576,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005a',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Greece Lightning',
     length: 7,
     cost: '$1097',
@@ -596,7 +586,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005a',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Walk the Camino de Santiago',
     length: 8,
     cost: '$1019',
@@ -606,7 +596,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005d',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Spanish Spree',
     length: 14,
     cost: '$1799',
@@ -616,7 +606,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005d',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Vespa the Spanish countryside',
     length: 4,
     cost: '$2134',
@@ -626,7 +616,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005d',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Southern Runner',
     length: 7,
     cost: '$899',
@@ -636,7 +626,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005d',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Cruise the Norwegian Fjords In Depth - Tromso to Bergen',
     length: 11,
     cost: '$3349',
@@ -646,7 +636,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005c',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Scandinavia',
     length: 10,
     cost: '$2035',
@@ -656,7 +646,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005c',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Head off-piste in beautiful Norway',
     length: 5,
     cost: '$2424',
@@ -666,7 +656,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005c',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Winter Scandi Express',
     length: 8,
     cost: '$979',
@@ -676,7 +666,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005c',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -686,7 +676,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005b',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Simply Italy',
     length: 12,
     cost: '$1799',
@@ -696,7 +686,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005b',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Soothe your soul in Sicily',
     length: 7,
     cost: '$3304',
@@ -706,17 +696,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005b',
   },
   {
-    company: 'Flash Pack',
-    name: 'Soothe your soul in Sicily',
-    length: 7,
-    cost: '$3304',
-    countries_visited: ['Italy'],
-    link: 'https://www.flashpack.com/adventure-trips/sicily-small-group-tour-solo-travellers/',
-    // Italy
-    primary_country_id: '5ca3c7c3143e781b614f005b',
-  },
-  {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Western Inspiration',
     length: 8,
     cost: '$939',
@@ -727,7 +707,7 @@ const newTours = [
   },
   // =================  North America tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -737,7 +717,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005e',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Caribbean Encounter',
     length: 10,
     cost: '$2179',
@@ -747,7 +727,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005e',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Jungle thrills and beach chills in Belize',
     length: 5,
     cost: '$2424',
@@ -757,7 +737,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005e',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'National Parks of the Canadian Rockies',
     length: 14,
     cost: '$2167',
@@ -767,7 +747,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005f',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Grand Canadian',
     length: 20,
     cost: '$3729',
@@ -777,7 +757,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005f',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'The ultimate winter adventure in Canada',
     length: 7,
     cost: '$2434',
@@ -787,7 +767,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005f',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'The Maple Trail',
     length: 8,
     cost: '$1239',
@@ -797,7 +777,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005f',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -807,7 +787,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0062',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Latin Legends',
     length: 14,
     cost: '$4595',
@@ -817,7 +797,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0062',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Wild swim the Yucatan Peninsula',
     length: 11,
     cost: '$3629',
@@ -827,7 +807,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0062',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -837,7 +817,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0061',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Sol Seeker',
     length: 13,
     cost: '$3175',
@@ -847,7 +827,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0061',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Volcanoes & jungles in Guatemala and Belize',
     length: 12,
     cost: '$4409',
@@ -857,7 +837,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0061',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Costa Rica Quest',
     length: 9,
     cost: '$979',
@@ -867,7 +847,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0060',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Playas of Paradise',
     length: 22,
     cost: '$4739',
@@ -877,7 +857,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0060',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Waterfalls and wildlife in Costa Rica',
     length: 11,
     cost: '$3089',
@@ -887,7 +867,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0060',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Best of the West',
     length: 15,
     cost: '$2023',
@@ -897,7 +877,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0063',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Epic Adventure',
     length: 55,
     cost: '$9235',
@@ -907,7 +887,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0063',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Get on down in Deep South USA',
     length: 8,
     cost: '$2794',
@@ -917,7 +897,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0063',
   },
   {
-    company: 'Topdeck',
+    company: './images/topdeck-travel-logo.png',
     name: 'Vegas to the Bay',
     length: 7,
     cost: '$1079',
@@ -928,7 +908,7 @@ const newTours = [
   },
   // =================  South America tours  =================
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Falklands, South Georgia & Antarctica',
     length: 22,
     cost: '$12299',
@@ -938,7 +918,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0064',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'The Explorer',
     length: 18,
     cost: '$4039',
@@ -948,7 +928,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0064',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Al fresco adventure in Argentina',
     length: 11,
     cost: '$3769',
@@ -958,7 +938,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0064',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Ecuador Beaches and Coastal Adventure',
     length: 7,
     cost: '$637',
@@ -968,7 +948,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0067',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'The Lava Line with ME to WE',
     length: 7,
     cost: '$1455',
@@ -978,7 +958,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0067',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'In Search of Iguassu',
     length: 17,
     cost: '$2252',
@@ -988,7 +968,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0065',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Argentina & Brazil Experience',
     length: 9,
     cost: '$1615',
@@ -998,7 +978,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0065',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Beach life and island-hopping in Brazil',
     length: 9,
     cost: '$3604',
@@ -1008,7 +988,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0065',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Galapagos Express',
     length: 7,
     cost: '$1402',
@@ -1018,7 +998,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0068',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Galapagos Island Hopper',
     length: 6,
     cost: '$2475',
@@ -1028,7 +1008,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0068',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Colombia Multisport & Lost City Trek',
     length: 17,
     cost: '$2660',
@@ -1038,7 +1018,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0066',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Hola Colombia',
     length: 18,
     cost: '$2999',
@@ -1048,7 +1028,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0066',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'A brave new world in Colombia',
     length: 13,
     cost: '$3859',
@@ -1058,7 +1038,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0066',
   },
   {
-    company: 'G Adventures',
+    company: './images/g-adventures-seeklogo.com.svg',
     name: 'Amazon to the Andes',
     length: 12,
     cost: '$2749',
@@ -1068,7 +1048,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0069',
   },
   {
-    company: 'Contiki',
+    company: './images/contiki-logo-vector.svg',
     name: 'Peru Uncovered',
     length: 14,
     cost: '$2825',
@@ -1078,7 +1058,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0069',
   },
   {
-    company: 'Flash Pack',
+    company: './images/flashpack.png',
     name: 'Venture into the soul of Peru',
     length: 8,
     cost: '$2569',
