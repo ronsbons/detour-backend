@@ -5,195 +5,196 @@ const newCountries = [
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'Ethiopia',
-    countryPhoto: ''
+    countryPhoto: './images/ethiopia-trevor-cole-393231-unsplash.jpg'
   },
   {
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'Kenya',
-    countryPhoto: ''
+    countryPhoto: './images/kenya-sutirta-budiman-560096-unsplash.jpg'
   },
   {
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'South Africa',
-    countryPhoto: ''
+    countryPhoto: './images/south-africa-jack-young-612174-unsplash.jpg'
   },
   {
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'Tanzania',
-    countryPhoto: ''
+    countryPhoto: './images/tanzania-jeremy-pelletier-1121948-unsplash.jpg'
   },
   {
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'Uganda',
-    countryPhoto: ''
+    countryPhoto: './images/uganda-random-institute-1401450-unsplash.jpg'
   },
   {
     // region_id 1 = Africa
     region_id: 1,
     countryName: 'Zimbabwe',
-    countryPhoto: ''
+    countryPhoto: './images/zimbabwe-christine-donaldson-214622-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'China',
-    countryPhoto: ''
+    countryPhoto: './images/china-diem-nhi-nguyen-591150-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'India',
-    countryPhoto: ''
+    countryPhoto: './images/india-annie-spratt-637598-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'Indonesia',
-    countryPhoto: ''
+    countryPhoto: './images/indonesia-raj-eiamworakul-1074311-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'Japan',
-    countryPhoto: ''
+    countryPhoto: './images/japan-andre-benz-256762-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'Thailand',
-    countryPhoto: ''
+    countryPhoto: './images/thailand-evan-krause-443469-unsplash.jpg'
   },
   {
     // region_id 2 = Asia
     region_id: 2,
     countryName: 'Vietnam',
-    countryPhoto: ''
+    countryPhoto: './images/vietnam-h-ng-nguy-n-vi-t-706400-unsplash.jpg'
   },
   {
     // region_id 3 = Australia
     region_id: 3,
     countryName: 'Australia',
-    countryPhoto: ''
+    countryPhoto: './images/australia-michael-lammli-776616-unsplash.jpg'
   },
   {
     // region_id 3 = Australia
     region_id: 3,
     countryName: 'New Zealand',
-    countryPhoto: ''
+    countryPhoto: './images/new-zealand-casey-horner-741483-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'Croatia',
-    countryPhoto: ''
+    countryPhoto: './images/croatia-marcus-lofvenberg-452430-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'France',
-    countryPhoto: ''
+    countryPhoto: './images/france-ilnur-kalimullin-354455-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'Greece',
-    countryPhoto: ''
+    countryPhoto: './images/greece-jonathan-gallegos-727409-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'Italy',
-    countryPhoto: ''
+    countryPhoto: './images/italy-karol-kaczorek-546390-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'Norway',
-    countryPhoto: ''
+    countryPhoto: './images/norway-michael-fousert-1205288-unsplash.jpg'
   },
   {
     // region_id 4 = Europe
     region_id: 4,
     countryName: 'Spain',
-    countryPhoto: ''
+    countryPhoto: './images/spain-florencia-potter-699220-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'Belize',
-    countryPhoto: ''
+    countryPhoto: './images/belize-davy-steinhauer-533710-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'Canada',
-    countryPhoto: ''
+    countryPhoto: './images/canada-ali-tawfiq-548956-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'Costa Rica',
-    countryPhoto: ''
+    countryPhoto: './images/costa-rica-perry-grone-732582-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'Guatemala',
-    countryPhoto: ''
+    countryPhoto: './images/guatemala-perry-grone-1125356-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'Mexico',
-    countryPhoto: ''
+    countryPhoto: './images/mexico-jezael-melgoza-551505-unsplash.jpg'
   },
   {
     // region_id 5 = North America
     region_id: 5,
     countryName: 'United States',
-    countryPhoto: ''
+    countryPhoto: './images/united-states-andre-benz-231286-unsplash.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Argentina',
-    countryPhoto: ''
+    countryPhoto: './images/argentina-ignacio-aguilar-422036-unsplash.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Brazil',
-    countryPhoto: ''
+    countryPhoto: './images/brazil-cariwest-carnival-48796.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Colombia',
-    countryPhoto: ''
+    countryPhoto: './images/colombia-ricardo-gomez-angel-789727-unsplash.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Ecuador',
-    countryPhoto: ''
+    countryPhoto: './images/ecuador-dan-romero-1140983-unsplash.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Galapagos Islands',
-    countryPhoto: ''
+    countryPhoto: './images/galapagos-islands-simon-matzinger-347343-unsplash.jpg'
   },
   {
     // region_id 6 = South America
     region_id: 6,
     countryName: 'Peru',
-    countryPhoto: ''
+    countryPhoto: './images/peru-johnson-wang-515975-unsplash.jpg'
   },
 ]
+
 
 db.Country.deleteMany({}, (error, countries) => {
   if (error) {
