@@ -4,9 +4,7 @@ const bodyParser = require('body-parser');
 
 const countryRoutes = require('./routes/country.js');
 const tourRoutes = require('./routes/tours.js');
-
-// will access index.js in models automatically
-// const db = require('./models');
+const userRoutes = require('./routes/user.js');
 
 const app = express();
 
@@ -14,11 +12,15 @@ app.use(bodyParser.urlencoded({ extended: false }) );
 app.use(bodyParser.json());
 app.use(cors());
 
+
 app.use('/country', countryRoutes);
 app.use('/tours', tourRoutes);
+app.use('/user', userRoutes);
+
 
 // serve the 'public' folder in the frontend which has 'index.html', which index.js puts components into
 app.use(express.static('public'));
+
 
 // test response to send to front end when it connects to backend
 app.get('/', (request, response) => response.send('hello, backend'));
