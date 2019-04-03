@@ -494,6 +494,599 @@ const newTours = [
     // New Zealand
     primary_country_id: '5ca3c7c3143e781b614f0057',
   },
+  // =================  Europe tours  =================
+  {
+    company: 'G Adventures',
+    name: 'Sailing Croatia - Split to Dubrovnik',
+    length: 8,
+    cost: '$1087',
+    countries_visited: ['Croatia'],
+    link: 'https://www.gadventures.com/trips/sailing-croatia-split-to-dubrovnik/ECVS/',
+    // Croatia
+    primary_country_id: '5ca3c7c3143e781b614f0058',
+  },
+  {
+    company: 'Contiki',
+    name: 'Croatia Island Escape',
+    length: 9,
+    cost: '$1116',
+    countries_visited: ['Croatia'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/croatia-island-escape-3266',
+    // Croatia
+    primary_country_id: '5ca3c7c3143e781b614f0058',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Experience the beauty of coastal Croatia',
+    length: 6,
+    cost: '$2154',
+    countries_visited: ['Croatia'],
+    link: 'https://www.flashpack.com/adventure-trips/coastal-croatia-small-group-tour-solo-travellers/',
+    // Croatia
+    primary_country_id: '5ca3c7c3143e781b614f0058',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Eastern Discovery',
+    length: 8,
+    cost: '$1289',
+    countries_visited: ['Croatia', 'Romania', 'Bulgaria', 'Serbia', 'Bosnia and Herzegovina'],
+    link: 'https://www.topdeck.travel/tours/eastern-discovery',
+    // Croatia
+    primary_country_id: '5ca3c7c3143e781b614f0058',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Trekking Mont Blanc',
+    length: 10,
+    cost: '$1699',
+    countries_visited: ['France', 'Switzerland', 'Italy'],
+    link: 'https://www.gadventures.com/trips/trekking-mont-blanc/EFMB/',
+    // France
+    primary_country_id: '5ca3c7c3143e781b614f0059',
+  },
+  {
+    company: 'Contiki',
+    name: 'European Adventurer',
+    length: 38,
+    cost: '$5842',
+    countries_visited: ['France', 'England', 'Spain', 'Italy', 'Greece', 'Albania', 'Croatia', 'Slovenia', 'Austria', 'Germany', 'Switzerland', 'Netherlands', 'Monaco', 'The Vatican', 'Montenegro', 'Bosnia and Herzegovina', 'Liechtenstein', 'Belgium'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/european-adventurer-107',
+    // France
+    primary_country_id: '5ca3c7c3143e781b614f0059',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Southern Runner',
+    length: 7,
+    cost: '$899',
+    countries_visited: ['France', 'Spain'],
+    link: 'https://www.topdeck.travel/tours/southern-runner',
+    // France
+    primary_country_id: '5ca3c7c3143e781b614f0059',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Sailing Greece',
+    length: 8,
+    cost: '$929',
+    countries_visited: ['Greece'],
+    link: 'https://www.gadventures.com/trips/sailing-greece-santorini-to-mykonos/GVSM/',
+    // Greece
+    primary_country_id: '5ca3c7c3143e781b614f005a',
+  },
+  {
+    company: 'Contiki',
+    name: 'Greek Island Hopping',
+    length: 13,
+    cost: '$2420',
+    countries_visited: ['Greece'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/greek-island-hopping-131',
+    // Greece
+    primary_country_id: '5ca3c7c3143e781b614f005a',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Greece Lightning',
+    length: 7,
+    cost: '$1097',
+    countries_visited: ['Greece'],
+    link: 'https://www.topdeck.travel/tours/greece-lightning',
+    // Greece
+    primary_country_id: '5ca3c7c3143e781b614f005a',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Walk the Camino de Santiago',
+    length: 8,
+    cost: '$1019',
+    countries_visited: ['Spain'],
+    link: 'https://www.gadventures.com/trips/walk-the-camino-de-santiago/ESCS/',
+    // Spain
+    primary_country_id: '5ca3c7c3143e781b614f005d',
+  },
+  {
+    company: 'Contiki',
+    name: 'Spanish Spree',
+    length: 14,
+    cost: '$1799',
+    countries_visited: ['Spain'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/spanish-spree-155',
+    // Spain
+    primary_country_id: '5ca3c7c3143e781b614f005d',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Vespa the Spanish countryside',
+    length: 4,
+    cost: '$2134',
+    countries_visited: ['Spain'],
+    link: 'https://www.flashpack.com/adventure-trips/vespa-road-trip/',
+    // Spain
+    primary_country_id: '5ca3c7c3143e781b614f005d',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Southern Runner',
+    length: 7,
+    cost: '$899',
+    countries_visited: ['France', 'Spain'],
+    link: 'https://www.topdeck.travel/tours/southern-runner',
+    // Spain
+    primary_country_id: '5ca3c7c3143e781b614f005d',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Cruise the Norwegian Fjords In Depth - Tromso to Bergen',
+    length: 11,
+    cost: '$3349',
+    countries_visited: ['Norway'],
+    link: 'https://www.gadventures.com/trips/cruise-the-norwegian-fjords-in-depth-tromso-bergen/XVNFNX/',
+    // Norway
+    primary_country_id: '5ca3c7c3143e781b614f005c',
+  },
+  {
+    company: 'Contiki',
+    name: 'Scandinavia',
+    length: 10,
+    cost: '$2035',
+    countries_visited: ['Norway', 'Germany', 'Denmark', 'Sweden'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/scandinavia-end-stockholm-241',
+    // Norway
+    primary_country_id: '5ca3c7c3143e781b614f005c',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Head off-piste in beautiful Norway',
+    length: 5,
+    cost: '$2424',
+    countries_visited: ['Norway'],
+    link: 'https://www.flashpack.com/adventure-trips/norway-small-group-tour-solo-travellers/',
+    // Norway
+    primary_country_id: '5ca3c7c3143e781b614f005c',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Winter Scandi Express',
+    length: 8,
+    cost: '$979',
+    countries_visited: ['Norway', 'Denmark', 'Sweden'],
+    link: 'https://www.topdeck.travel/tours/winter-scandi-express',
+    // Norway
+    primary_country_id: '5ca3c7c3143e781b614f005c',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Trekking Mont Blanc',
+    length: 10,
+    cost: '$1699',
+    countries_visited: ['France', 'Switzerland', 'Italy'],
+    link: 'https://www.gadventures.com/trips/trekking-mont-blanc/EFMB/',
+    // Italy
+    primary_country_id: '5ca3c7c3143e781b614f005b',
+  },
+  {
+    company: 'Contiki',
+    name: 'Simply Italy',
+    length: 12,
+    cost: '$1799',
+    countries_visited: ['Italy'],
+    link: 'https://www.contiki.com/us/en/destinations/europe/tours/simply-italy-152',
+    // Italy
+    primary_country_id: '5ca3c7c3143e781b614f005b',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Soothe your soul in Sicily',
+    length: 7,
+    cost: '$3304',
+    countries_visited: ['Italy'],
+    link: 'https://www.flashpack.com/adventure-trips/sicily-small-group-tour-solo-travellers/',
+    // Italy
+    primary_country_id: '5ca3c7c3143e781b614f005b',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Soothe your soul in Sicily',
+    length: 7,
+    cost: '$3304',
+    countries_visited: ['Italy'],
+    link: 'https://www.flashpack.com/adventure-trips/sicily-small-group-tour-solo-travellers/',
+    // Italy
+    primary_country_id: '5ca3c7c3143e781b614f005b',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Western Inspiration',
+    length: 8,
+    cost: '$939',
+    countries_visited: ['Italy', 'France', 'Switzerland', 'Vatican City'],
+    link: 'https://www.topdeck.travel/tours/western-inspiration',
+    // Italy
+    primary_country_id: '5ca3c7c3143e781b614f005b',
+  },
+  // =================  North America tours  =================
+  {
+    company: 'G Adventures',
+    name: 'Mayan Adventure',
+    length: 22,
+    cost: '$2319',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
+    // Belize
+    primary_country_id: '5ca3c7c3143e781b614f005e',
+  },
+  {
+    company: 'Contiki',
+    name: 'Caribbean Encounter',
+    length: 10,
+    cost: '$2179',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/caribbean-encounter-from-dec2019-3865',
+    // Belize
+    primary_country_id: '5ca3c7c3143e781b614f005e',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Jungle thrills and beach chills in Belize',
+    length: 5,
+    cost: '$2424',
+    countries_visited: ['Belize'],
+    link: 'https://www.flashpack.com/adventure-trips/belize-small-group-tour-solo-travellers/',
+    // Belize
+    primary_country_id: '5ca3c7c3143e781b614f005e',
+  },
+  {
+    company: 'G Adventures',
+    name: 'National Parks of the Canadian Rockies',
+    length: 14,
+    cost: '$2167',
+    countries_visited: ['Canada'],
+    link: 'https://www.gadventures.com/trips/national-parks-of-the-canadian-rockies-eastbound/NCUR/',
+    // Canada
+    primary_country_id: '5ca3c7c3143e781b614f005f',
+  },
+  {
+    company: 'Contiki',
+    name: 'Grand Canadian',
+    length: 20,
+    cost: '$3729',
+    countries_visited: ['Canada'],
+    link: 'https://www.contiki.com/us/en/destinations/usa-canada/tours/grand-canadian-260',
+    // Canada
+    primary_country_id: '5ca3c7c3143e781b614f005f',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'The ultimate winter adventure in Canada',
+    length: 7,
+    cost: '$2434',
+    countries_visited: ['Canada'],
+    link: 'https://www.flashpack.com/adventure-trips/canada-winter-small-group-adventure-solo-travellers/',
+    // Canada
+    primary_country_id: '5ca3c7c3143e781b614f005f',
+  },
+  {
+    company: 'Topdeck',
+    name: 'The Maple Trail',
+    length: 8,
+    cost: '$1239',
+    countries_visited: ['Canada', 'United States'],
+    link: 'https://www.topdeck.travel/tours/the-maple-trail',
+    // Canada
+    primary_country_id: '5ca3c7c3143e781b614f005f',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Mayan Adventure',
+    length: 22,
+    cost: '$2319',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
+    // Mexico
+    primary_country_id: '5ca3c7c3143e781b614f0062',
+  },
+  {
+    company: 'Contiki',
+    name: 'Latin Legends',
+    length: 14,
+    cost: '$4595',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/latin-legends-until-nov2019-1796',
+    // Mexico
+    primary_country_id: '5ca3c7c3143e781b614f0062',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Wild swim the Yucatan Peninsula',
+    length: 11,
+    cost: '$3629',
+    countries_visited: ['Mexico'],
+    link: 'https://www.flashpack.com/adventure-trips/yucatan-small-group-adventure-solo-travellers/',
+    // Mexico
+    primary_country_id: '5ca3c7c3143e781b614f0062',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Mayan Adventure',
+    length: 22,
+    cost: '$2319',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
+    // Guatemala
+    primary_country_id: '5ca3c7c3143e781b614f0061',
+  },
+  {
+    company: 'Contiki',
+    name: 'Sol Seeker',
+    length: 13,
+    cost: '$3175',
+    countries_visited: ['Belize', 'Guatemala', 'Mexico'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/sol-seeker-until-nov2019-1816',
+    // Guatemala
+    primary_country_id: '5ca3c7c3143e781b614f0061',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Volcanoes & jungles in Guatemala and Belize',
+    length: 12,
+    cost: '$4409',
+    countries_visited: ['Belize', 'Guatemala'],
+    link: 'https://www.flashpack.com/adventure-trips/guatemala-belize-small-group-adventure-solo-travellers/',
+    // Guatemala
+    primary_country_id: '5ca3c7c3143e781b614f0061',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Costa Rica Quest',
+    length: 9,
+    cost: '$979',
+    countries_visited: ['Costa Rica'],
+    link: 'https://www.gadventures.com/trips/costa-rica-quest/CRQ/',
+    // Costa Rica
+    primary_country_id: '5ca3c7c3143e781b614f0060',
+  },
+  {
+    company: 'Contiki',
+    name: 'Playas of Paradise',
+    length: 22,
+    cost: '$4739',
+    countries_visited: ['Costa Rica', 'Mexico', 'Belize', 'Guatemala'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/playas-of-paradise-until-nov2019-3676',
+    // Costa Rica
+    primary_country_id: '5ca3c7c3143e781b614f0060',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Waterfalls and wildlife in Costa Rica',
+    length: 11,
+    cost: '$3089',
+    countries_visited: ['Costa Rica'],
+    link: 'https://www.flashpack.com/adventure-trips/costa-rica-small-group-tour-solo-travellers/',
+    // Costa Rica
+    primary_country_id: '5ca3c7c3143e781b614f0060',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Best of the West',
+    length: 15,
+    cost: '$2023',
+    countries_visited: ['United States'],
+    link: 'https://www.gadventures.com/trips/best-of-the-west/NUBW/',
+    // United States
+    primary_country_id: '5ca3c7c3143e781b614f0063',
+  },
+  {
+    company: 'Contiki',
+    name: 'Epic Adventure',
+    length: 55,
+    cost: '$9235',
+    countries_visited: ['United States', 'Canada'],
+    link: 'https://www.contiki.com/us/en/destinations/usa-canada/tours/epic-adventure-3808',
+    // United States
+    primary_country_id: '5ca3c7c3143e781b614f0063',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Get on down in Deep South USA',
+    length: 8,
+    cost: '$2794',
+    countries_visited: ['United States'],
+    link: 'https://www.flashpack.com/adventure-trips/deep-south-usa-small-group-adventure-solo-travellers/',
+    // United States
+    primary_country_id: '5ca3c7c3143e781b614f0063',
+  },
+  {
+    company: 'Topdeck',
+    name: 'Vegas to the Bay',
+    length: 7,
+    cost: '$1079',
+    countries_visited: ['United States'],
+    link: 'https://www.topdeck.travel/tours/vegas-to-the-bay-finish-la',
+    // United States
+    primary_country_id: '5ca3c7c3143e781b614f0063',
+  },
+  // =================  South America tours  =================
+  {
+    company: 'G Adventures',
+    name: 'Falklands, South Georgia & Antarctica',
+    length: 22,
+    cost: '$12299',
+    countries_visited: ['Argentina', 'Falkland Islands', 'Antarctica', 'Uruguay'],
+    link: 'https://www.gadventures.com/trips/falklands-south-georgia-and-antarctica/XVGFSX/',
+    // Argentina
+    primary_country_id: '5ca3c7c3143e781b614f0064',
+  },
+  {
+    company: 'Contiki',
+    name: 'The Explorer',
+    length: 18,
+    cost: '$4039',
+    countries_visited: ['Argentina', 'Brazil', 'Peru'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/the-explorer-until-jan2020-2826',
+    // Argentina
+    primary_country_id: '5ca3c7c3143e781b614f0064',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Al fresco adventure in Argentina',
+    length: 11,
+    cost: '$3769',
+    countries_visited: ['Argentina'],
+    link: 'https://www.flashpack.com/adventure-trips/argentina-small-group-adventure-solo-travellers/',
+    // Argentina
+    primary_country_id: '5ca3c7c3143e781b614f0064',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Ecuador Beaches and Coastal Adventure',
+    length: 7,
+    cost: '$637',
+    countries_visited: ['Ecuador'],
+    link: 'https://www.gadventures.com/trips/ecuador-beaches-and-coastal-adventure/SECE/',
+    // Ecuador
+    primary_country_id: '5ca3c7c3143e781b614f0067',
+  },
+  {
+    company: 'Contiki',
+    name: 'The Lava Line with ME to WE',
+    length: 7,
+    cost: '$1455',
+    countries_visited: ['Ecuador'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/the-lava-line-with-me-to-we-3576',
+    // Ecuador
+    primary_country_id: '5ca3c7c3143e781b614f0067',
+  },
+  {
+    company: 'G Adventures',
+    name: 'In Search of Iguassu',
+    length: 17,
+    cost: '$2252',
+    countries_visited: ['Brazil', 'Argentina', 'Uruguay'],
+    link: 'https://www.gadventures.com/trips/in-search-of-iguassu-buenos-aires-to-rio/JBR/',
+    // Brazil
+    primary_country_id: '5ca3c7c3143e781b614f0065',
+  },
+  {
+    company: 'Contiki',
+    name: 'Argentina & Brazil Experience',
+    length: 9,
+    cost: '$1615',
+    countries_visited: ['Brazil', 'Argentina'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/argentina-brazil-experience-2836',
+    // Brazil
+    primary_country_id: '5ca3c7c3143e781b614f0065',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Beach life and island-hopping in Brazil',
+    length: 9,
+    cost: '$3604',
+    countries_visited: ['Brazil'],
+    link: 'https://www.flashpack.com/adventure-trips/brazil-small-group-tour-solo-travellers/',
+    // Brazil
+    primary_country_id: '5ca3c7c3143e781b614f0065',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Galapagos Express',
+    length: 7,
+    cost: '$1402',
+    countries_visited: ['Galapagos Islands', 'Ecuador'],
+    link: 'https://www.gadventures.com/trips/galapagos-express/SEGB/',
+    // Galapagos Islands
+    primary_country_id: '5ca3c7c3143e781b614f0068',
+  },
+  {
+    company: 'Contiki',
+    name: 'Galapagos Island Hopper',
+    length: 6,
+    cost: '$2475',
+    countries_visited: ['Galapagos Islands', 'Ecuador'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/galapagos-island-hopper-1766',
+    // Galapagos Islands
+    primary_country_id: '5ca3c7c3143e781b614f0068',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Colombia Multisport & Lost City Trek',
+    length: 17,
+    cost: '$2660',
+    countries_visited: ['Colombia'],
+    link: 'https://www.gadventures.com/trips/colombia-multisport/SMCA/',
+    // Colombia
+    primary_country_id: '5ca3c7c3143e781b614f0066',
+  },
+  {
+    company: 'Contiki',
+    name: 'Hola Colombia',
+    length: 18,
+    cost: '$2999',
+    countries_visited: ['Colombia'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/hola-colombia-3861',
+    // Colombia
+    primary_country_id: '5ca3c7c3143e781b614f0066',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'A brave new world in Colombia',
+    length: 13,
+    cost: '$3859',
+    countries_visited: ['Colombia'],
+    link: 'https://www.flashpack.com/adventure-trips/come-to-colombia/',
+    // Colombia
+    primary_country_id: '5ca3c7c3143e781b614f0066',
+  },
+  {
+    company: 'G Adventures',
+    name: 'Amazon to the Andes',
+    length: 12,
+    cost: '$2749',
+    countries_visited: ['Peru'],
+    link: 'https://www.gadventures.com/trips/amazon-to-the-andes/PAA/',
+    // Peru
+    primary_country_id: '5ca3c7c3143e781b614f0069',
+  },
+  {
+    company: 'Contiki',
+    name: 'Peru Uncovered',
+    length: 14,
+    cost: '$2825',
+    countries_visited: ['Peru'],
+    link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/peru-uncovered-2746',
+    // Peru
+    primary_country_id: '5ca3c7c3143e781b614f0069',
+  },
+  {
+    company: 'Flash Pack',
+    name: 'Venture into the soul of Peru',
+    length: 8,
+    cost: '$2569',
+    countries_visited: ['Peru'],
+    link: 'https://www.flashpack.com/adventure-trips/peru-express-small-group-tour-solo-travellers/',
+    // Peru
+    primary_country_id: '5ca3c7c3143e781b614f0069',
+  },
 ]
 
 
