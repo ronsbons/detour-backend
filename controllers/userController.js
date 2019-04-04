@@ -134,4 +134,26 @@ module.exports = {
         response.status(500).json({error: error});
       });
   },
+
+  showAllUsers: (request, response) => {
+    db.User.find({}, (error, foundUsers) => {
+      if (error) {
+        console.log(`can't get all users ${error}`);
+      }
+      console.log(`all users ${foundUsers}`);
+      response.json(foundUsers);
+    });
+  },
+
+  delete: (request, response) => {
+    console.log(`delete user by id: ${request.params.id}`);
+    db.User.findOneAndDelete({_id: request.params.id}, (error, deletedUser) => {
+      if (error) {
+        console.log(`can't delete user: ${error}`);
+      }
+      response.json(deletedUser);
+      console.log(`deleted user: ${deletedUser}`);
+    });
+  },
+
 };
