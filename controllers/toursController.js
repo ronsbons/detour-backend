@@ -25,6 +25,8 @@ module.exports = {
 
   // find tours by primary_country reference id
   showByCountry: (request, response) => {
+    // primary_country_id is the property key in the tour model
+    // .country_id is how the params is listed in the tour route
     db.Tours.find({primary_country_id: request.params.country_id}, (error, foundTours) => {
       if (error) {
         console.log(`can't find tours by primary country: ${error}`);
