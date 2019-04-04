@@ -57,6 +57,21 @@ module.exports = {
       });
   },
 
+  // get one review
+  showOne: (request, response) => {
+    db.Reviews.findById({_id: request.params.id})
+      .populate('user_id')
+      .populate('country_id')
+      .exec()
+      .then( (foundReview) => {
+        console.log(`found review: ${foundReview}`);
+        response.json(foundReview);
+      }).catch( (error) => {
+        console.log(`find one review error: ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
+
   // get all reviews
   showAllReviews: (request, response) => {
     db.Reviews.find({})
