@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const countryRoutes = require('./routes/country.js');
 const tourRoutes = require('./routes/tours.js');
 const userRoutes = require('./routes/user.js');
+const reviewRoutes = require('./routes/reviews.js');
 
 const app = express();
 
@@ -16,7 +17,7 @@ app.use(cors());
 app.use('/country', countryRoutes);
 app.use('/tours', tourRoutes);
 app.use('/user', userRoutes);
-
+app.use('/reviews', reviewRoutes);
 
 // serve the 'public' folder in the frontend which has 'index.html', which index.js puts components into
 app.use(express.static('public'));
