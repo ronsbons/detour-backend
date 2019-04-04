@@ -38,4 +38,18 @@ module.exports = {
       });
   },
 
+  // get all reviews
+  showAllReviews: (request, response) => {
+    db.Reviews.find({})
+      .populate('user_id')
+      .populate('country_id')
+      .exec()
+      .then( (foundReviews) => {
+        console.log(`found all reviews: ${foundReviews}`);
+        response.json(foundReviews);
+      }).catch( (error) => {
+        console.log(`db.Reviews.catch error ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
 };
