@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 const db = require ('../models');
 
 module.exports = {
+  // create/signup a user
   signup: (request, response) => {
     console.log(`sign up request: ${request.body.email}`);
     // check to see if user already exists in db
