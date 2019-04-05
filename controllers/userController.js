@@ -170,6 +170,7 @@ module.exports = {
       .then( (foundUser) => {
         console.log(`found one user: ${foundUser}`);
         response.json(foundUser);
+        // [] HOW TO POPULATE COUNTRY INFO FROM SAVED_TOUR_ID.PRIMARY_COUNTRY_ID?
       }).catch( (error) => {
         console.log(`can't find one user`);
         response.status(500).json({error: error});

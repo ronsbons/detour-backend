@@ -130,4 +130,20 @@ module.exports = {
         response.status(500).json({error: error});
       });
   },
+
+  // get reviews by user
+  showReviewsByUser: (request, response) => {
+    console.log(`get user's reviews`);
+    db.Reviews.find({user_id: request.params.user_id})
+      // pull in country info
+      .populate('country_id')
+      .exec()
+      .then( (foundReviews) => {
+        console.log(`found user's reviews ${foundReviews}`);
+        response.json(foundReviews);
+      }).catch( (error) => {
+        console.log(`get user's reviews error: ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
 };

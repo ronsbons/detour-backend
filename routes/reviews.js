@@ -22,6 +22,8 @@ router.post('/', controllers.reviews.add);
 router.put('/:id', controllers.reviews.edit);
 // delete review
 router.delete('/:id', controllers.reviews.delete);
+// get reviews by user id
+router.get('/user/:user_id', controllers.reviews.showReviewsByUser);
 
 
 
