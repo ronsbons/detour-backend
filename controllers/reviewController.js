@@ -135,6 +135,8 @@ module.exports = {
   showReviewsByUser: (request, response) => {
     console.log(`get user's reviews`);
     db.Reviews.find({user_id: request.params.user_id})
+      // pull in user info
+      .populate('user_id')
       // pull in country info
       .populate('country_id')
       .exec()
