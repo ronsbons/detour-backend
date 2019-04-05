@@ -150,6 +150,7 @@ module.exports = {
 
   delete: (request, response) => {
     console.log(`delete user by id: ${request.params.id}`);
+    // find user by _id
     db.User.findOneAndDelete({_id: request.params.id}, (error, deletedUser) => {
       if (error) {
         console.log(`can't delete user: ${error}`);
@@ -161,7 +162,9 @@ module.exports = {
 
   showOneUser: (request, response) => {
     console.log(`get one user: ${request.params.id}`);
+    // find user by id
     db.User.findOne({_id: request.params.id})
+      // bring in saved tour info
       .populate('saved_tour_id')
       .exec()
       .then( (foundUser) => {
@@ -173,13 +176,18 @@ module.exports = {
       });
   },
 
+  // add saved tour
   addTour: (request, response) => {
     console.log(`update user: ${request.params.id}`);
     db.User.findOneAndUpdate(
+      // find user by id
       {_id: request.params.id},
-      // put saved tour id key/value pair in frontend's request.body
+      // update saved_tour_id array by pushing value into it
+      // put saved tour id key/value pair in frontend's request.body ({saved_tour_id: "idString"})
       {$push: request.body},
-      {new: true}
+      // return updated user
+      { new: true }
+    // bring in saved tour info
     ).populate('saved_tour_id')
       .exec()
       .then( (updatedUser) => {
@@ -187,6 +195,29 @@ module.exports = {
         response.json(updatedUser);
       }).catch( (error) => {
         console.log(`update user push error: ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
+
+  // remove saved tour
+  removeTour: (request, response) => {
+    console.log(`update user: ${request.params.id}`);
+    db.User.findOneAndUpdate(
+      // find user by _id
+      {_id: request.params.id},
+      // update saved_tour_id array by pulling a value from it
+      // put saved tour key value pair in frontend's request.body ({saved_tour_id: "idString"});
+      {$pull: request.body},
+      // return updated user
+      { new: true }
+    // bring in tour info
+    ).populate('saved_tour_id')
+      .exec()
+      .then( (updatedUser) => {
+        console.log(`updated user with removing a saved tour: ${updatedUser}`);
+        response.json(updatedUser);
+      }).catch( (error) => {
+        console.log(`update user pull error: ${error}`);
         response.status(500).json({error: error});
       });
   },
