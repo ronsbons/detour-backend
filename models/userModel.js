@@ -25,10 +25,10 @@ const UserSchema = new Schema({
     // (?<![.]) no . at the end of username
     match: /^(?=.{4,20}$)(?![.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![.])$/
   },
-  saved_tour_id: {
+  saved_tour_id: [{
     type: Schema.Types.ObjectId,
     ref: 'Tours'
-  },
+  }],
 });
 
 // passportLocalMongoose should take care of hashing password

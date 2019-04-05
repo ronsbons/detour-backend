@@ -76,6 +76,7 @@ module.exports = {
     console.log(`login request: ${request.body.username}`);
     db.User.find( {username: request.body.username} )
       .select('+password')
+      .populate('saved_tour_id')
       .exec()
       .then( (users) => {
         // if no users found
@@ -137,13 +138,14 @@ module.exports = {
   },
 
   showAllUsers: (request, response) => {
-    db.User.find({}, (error, foundUsers) => {
-      if (error) {
+    db.User.find({}).populate('saved_tour_id')
+      .exec()
+      .then( (foundUsers) => {
+        console.log(`all users ${foundUsers}`);
+        response.json(foundUsers);
+      }).catch( (error) => {
         console.log(`can't get all users ${error}`);
-      }
-      console.log(`all users ${foundUsers}`);
-      response.json(foundUsers);
-    });
+      });
   },
 
   delete: (request, response) => {
@@ -157,4 +159,35 @@ module.exports = {
     });
   },
 
+  showOneUser: (request, response) => {
+    console.log(`get one user: ${request.params.id}`);
+    db.User.findOne({_id: request.params.id})
+      .populate('saved_tour_id')
+      .exec()
+      .then( (foundUser) => {
+        console.log(`found one user: ${foundUser}`);
+        response.json(foundUser);
+      }).catch( (error) => {
+        console.log(`can't find one user`);
+        response.status(500).json({error: error});
+      });
+  },
+
+  addTour: (request, response) => {
+    console.log(`update user: ${request.params.id}`);
+    db.User.findOneAndUpdate(
+      {_id: request.params.id},
+      // put saved tour id key/value pair in frontend's request.body
+      {$push: request.body},
+      {new: true}
+    ).populate('saved_tour_id')
+      .exec()
+      .then( (updatedUser) => {
+        console.log(`updated user with saved tours: ${updatedUser}`);
+        response.json(updatedUser);
+      }).catch( (error) => {
+        console.log(`update user push error: ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
 };
