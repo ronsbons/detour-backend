@@ -24,6 +24,8 @@ router.get('/:id', controllers.user.showOneUser);
 router.put('/:id/add-saved-tour', controllers.user.addTour);
 // remove saved tour
 router.put('/:id/remove-saved-tour', controllers.user.removeTour);
+// edit user
+router.put('/:id', controllers.user.edit);
 
 
 module.exports = router;
