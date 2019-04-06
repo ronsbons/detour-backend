@@ -20,7 +20,7 @@ const UserSchema = new Schema({
     unique: true,
     // (?=.{4,20}$) length between 4-20
     // (?![.]) no or . at the beginning of username
-    // (?!.*[_.]{2}) no __ or _. or .. inside sername
+    // (?!.*[_.]{2}) no __ or _. or .. inside username
     // [a-zA-Z0-9._] allowed characters a-z, 0-9, . and _
     // (?<![.]) no . at the end of username
     match: /^(?=.{4,20}$)(?![.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![.])$/

@@ -222,4 +222,27 @@ module.exports = {
         response.status(500).json({error: error});
       });
   },
+
+  edit: (request, response) => {
+    console.log(`edi tuser: ${request.params.id}`);
+    // find user by id
+    db.User.findOneAndUpdate(
+      {_id: request.params.id},
+      // put any/all user info to be updated within request.body
+      // request.body will be an object with key/value paris
+      // [] WHEN EDITING, THE REGEX VALIDATORS DON'T KICK IN
+      request.body,
+      // return updated user
+      { new: true }
+    // bring in tour info
+    ).populate('saved_tour_id')
+      .exec()
+      .then( (updatedUser) => {
+        console.log(`updated user info: ${updatedUser}`);
+        response.json(updatedUser);
+      }).catch( (error) => {
+        console.log(`update user error: ${error}`);
+        response.status(500).json({error: error});
+      });
+  },
 };
