@@ -229,7 +229,7 @@ module.exports = {
     db.User.findOneAndUpdate(
       {_id: request.params.id},
       // put any/all user info to be updated within request.body
-      // request.body will be an object with key/value paris
+      // request.body will be an object with key/value pairs
       // [] WHEN EDITING, THE REGEX VALIDATORS DON'T KICK IN
       request.body,
       // return updated user
