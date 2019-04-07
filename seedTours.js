@@ -3,7 +3,7 @@ const db = require('./models');
 const newTours = [
   // =================  Africa tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Discover Ethiopia',
     length: 10,
     cost: '$2349',
@@ -13,7 +13,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004a',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -23,7 +23,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004b',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Cape & Dunes Overland',
     length: 14,
     cost: '$1349',
@@ -33,7 +33,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004c',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Uganda & Gorillas Overland',
     length: 9,
     cost: '$1879',
@@ -43,7 +43,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004e',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Mt. Kilimanjaro Trek - Marangu Route',
     length: 7,
     cost: '$2337',
@@ -53,7 +53,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f004d',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -194,7 +194,7 @@ const newTours = [
   },
   // =================  Asia tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Essential China',
     length: 21,
     cost: '$2849',
@@ -234,7 +234,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0050',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Delhi to Kathmandu Adventure',
     length: 15,
     cost: '$1199',
@@ -264,7 +264,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0051',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Epic Japan',
     length: 11,
     cost: '$2209',
@@ -304,7 +304,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0053',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Best of Java',
     length: 9,
     cost: '$1104',
@@ -334,7 +334,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0052',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -374,7 +374,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0054',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -415,7 +415,7 @@ const newTours = [
   },
   // =================  Australia tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Complete Australia',
     length: 28,
     cost: '$4159',
@@ -455,7 +455,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0056',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'New Zealand - South Island Encompassed',
     length: 16,
     cost: '$1839',
@@ -486,7 +486,7 @@ const newTours = [
   },
   // =================  Europe tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Sailing Croatia - Split to Dubrovnik',
     length: 8,
     cost: '$1087',
@@ -526,7 +526,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0058',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -556,7 +556,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0059',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Sailing Greece',
     length: 8,
     cost: '$929',
@@ -586,7 +586,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005a',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Walk the Camino de Santiago',
     length: 8,
     cost: '$1019',
@@ -626,7 +626,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005d',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Cruise the Norwegian Fjords In Depth - Tromso to Bergen',
     length: 11,
     cost: '$3349',
@@ -666,7 +666,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005c',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -707,7 +707,7 @@ const newTours = [
   },
   // =================  North America tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -737,7 +737,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005e',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'National Parks of the Canadian Rockies',
     length: 14,
     cost: '$2167',
@@ -777,7 +777,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f005f',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -807,7 +807,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0062',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -837,7 +837,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0061',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Costa Rica Quest',
     length: 9,
     cost: '$979',
@@ -867,7 +867,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0060',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Best of the West',
     length: 15,
     cost: '$2023',
@@ -908,7 +908,7 @@ const newTours = [
   },
   // =================  South America tours  =================
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Falklands, South Georgia & Antarctica',
     length: 22,
     cost: '$12299',
@@ -938,7 +938,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0064',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Ecuador Beaches and Coastal Adventure',
     length: 7,
     cost: '$637',
@@ -958,7 +958,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0067',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'In Search of Iguassu',
     length: 17,
     cost: '$2252',
@@ -988,7 +988,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0065',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Galapagos Express',
     length: 7,
     cost: '$1402',
@@ -1008,7 +1008,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0068',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Colombia Multisport & Lost City Trek',
     length: 17,
     cost: '$2660',
@@ -1038,7 +1038,7 @@ const newTours = [
     primary_country_id: '5ca3c7c3143e781b614f0066',
   },
   {
-    company: './images/g-adventures-seeklogo.com.svg',
+    company: './images/G Adventures logo.png',
     name: 'Amazon to the Andes',
     length: 12,
     cost: '$2749',
