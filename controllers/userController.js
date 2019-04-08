@@ -188,69 +188,87 @@ module.exports = {
   // add saved tour
   addTour: (request, response) => {
     console.log(`update user: ${request.params.id}`);
-    db.User.findOneAndUpdate(
-      // find user by id
-      {_id: request.params.id},
-      // update saved_tour_id array by pushing value into it
-      // put saved tour id key/value pair in frontend's request.body ({saved_tour_id: "idString"})
-      {$push: request.body},
-      // return updated user
-      { new: true }
-    // bring in saved tour info
-    ).populate('saved_tour_id')
-      .exec()
-      .then( (updatedUser) => {
-        console.log(`updated user with saved tours: ${updatedUser}`);
-        response.json(updatedUser);
-      }).catch( (error) => {
-        console.log(`update user push error: ${error}`);
-        response.status(500).json({error: error});
-      });
+    console.log(`jwt middleware request.userId to addTour: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.User.findOneAndUpdate(
+        // find user by id
+        {_id: request.params.id},
+        // update saved_tour_id array by pushing value into it
+        // put saved tour id key/value pair in frontend's request.body ({saved_tour_id: "idString"})
+        {$push: request.body},
+        // return updated user
+        { new: true }
+      // bring in saved tour info
+      ).populate('saved_tour_id')
+        .exec()
+        .then( (updatedUser) => {
+          console.log(`updated user with saved tours: ${updatedUser}`);
+          response.json(updatedUser);
+        }).catch( (error) => {
+          console.log(`update user push error: ${error}`);
+          response.status(500).json({error: error});
+        });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };    
   },
 
   // remove saved tour
   removeTour: (request, response) => {
     console.log(`update user: ${request.params.id}`);
-    db.User.findOneAndUpdate(
-      // find user by _id
-      {_id: request.params.id},
-      // update saved_tour_id array by pulling a value from it
-      // put saved tour key value pair in frontend's request.body ({saved_tour_id: "idString"});
-      {$pull: request.body},
-      // return updated user
-      { new: true }
-    // bring in tour info
-    ).populate('saved_tour_id')
-      .exec()
-      .then( (updatedUser) => {
-        console.log(`updated user with removing a saved tour: ${updatedUser}`);
-        response.json(updatedUser);
-      }).catch( (error) => {
-        console.log(`update user pull error: ${error}`);
-        response.status(500).json({error: error});
-      });
+    console.log(`jwt middleware request.userId to removeTour: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.User.findOneAndUpdate(
+        // find user by _id
+        {_id: request.params.id},
+        // update saved_tour_id array by pulling a value from it
+        // put saved tour key value pair in frontend's request.body ({saved_tour_id: "idString"});
+        {$pull: request.body},
+        // return updated user
+        { new: true }
+      // bring in tour info
+      ).populate('saved_tour_id')
+        .exec()
+        .then( (updatedUser) => {
+          console.log(`updated user with removing a saved tour: ${updatedUser}`);
+          response.json(updatedUser);
+        }).catch( (error) => {
+          console.log(`update user pull error: ${error}`);
+          response.status(500).json({error: error});
+        });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };    
   },
 
   edit: (request, response) => {
-    console.log(`edi tuser: ${request.params.id}`);
-    // find user by id
-    db.User.findOneAndUpdate(
-      {_id: request.params.id},
-      // put any/all user info to be updated within request.body
-      // request.body will be an object with key/value pairs
-      // [] WHEN EDITING, THE REGEX VALIDATORS DON'T KICK IN
-      request.body,
-      // return updated user
-      { new: true }
-    // bring in tour info
-    ).populate('saved_tour_id')
-      .exec()
-      .then( (updatedUser) => {
-        console.log(`updated user info: ${updatedUser}`);
-        response.json(updatedUser);
-      }).catch( (error) => {
-        console.log(`update user error: ${error}`);
-        response.status(500).json({error: error});
-      });
+    console.log(`edit user: ${request.params.id}`);
+    console.log(`jwt middleware request.userId to edit: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find user by id
+      db.User.findOneAndUpdate(
+        {_id: request.params.id},
+        // put any/all user info to be updated within request.body
+        // request.body will be an object with key/value pairs
+        // [] WHEN EDITING, THE REGEX VALIDATORS DON'T KICK IN
+        request.body,
+        // return updated user
+        { new: true }
+      // bring in tour info
+      ).populate('saved_tour_id')
+        .exec()
+        .then( (updatedUser) => {
+          console.log(`updated user info: ${updatedUser}`);
+          response.json(updatedUser);
+        }).catch( (error) => {
+          console.log(`update user error: ${error}`);
+          response.status(500).json({error: error});
+        });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };  
   },
 };
