@@ -144,13 +144,15 @@ module.exports = {
       });
     } else {
       response.json('Protected route.  User is not verified.');
-    }
+    };
   },
 
   // get reviews by user
   showReviewsByUser: (request, response) => {
-    console.log(`get user's reviews`);
-    db.Reviews.find({user_id: request.params.user_id})
+    console.log(`jwt middleware request.userId for showReviewsByUser: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.Reviews.find({user_id: request.params.user_id})
       // pull in user info
       .populate('user_id')
       // pull in country info
@@ -163,5 +165,8 @@ module.exports = {
         console.log(`get user's reviews error: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 };
