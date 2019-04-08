@@ -103,7 +103,7 @@ module.exports = {
   // edit a review
   // [] DO I NEED TO POPULATE USER AND/OR COUNTRY INFO...?
   edit: (request, response) => {
-    console.log(`jwt middleware request.userId: ${request.userId}`);
+    console.log(`jwt middleware request.userId for edit review: ${request.userId}`);
     // if there's a value to request.userId, then...
     if (request.userId) {
       db.Reviews.findOneAndUpdate(
@@ -129,9 +129,11 @@ module.exports = {
 
   // delete a review
   delete: (request, response) => {
-    console.log(`delete review`);
-    // find review by _id
-    db.Reviews.findOneAndDelete({_id: request.params.id})
+    console.log(`jwt middleware request.userId for delete review: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find review by _id
+      db.Reviews.findOneAndDelete({_id: request.params.id})
       .exec()
       .then( (deletedReview) => {
         console.log(`deleted review: ${deletedReview}`);
@@ -140,6 +142,9 @@ module.exports = {
         console.log(`delete review error: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    }
   },
 
   // get reviews by user
