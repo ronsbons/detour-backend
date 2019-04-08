@@ -59,9 +59,13 @@ module.exports = {
   // =====================  user routes =====================
   // add a review
   add: (request, response) => {
-    console.log(`add a review request: ${request.body}`);
-    // find the user who's creating the review in order to tie the review to the user id
-    db.User.findOne({_id: request.body.user_id})
+    console.log(`add a review request from: ${request.body.user_id}`);
+    console.log(`addReview request for country: ${request.body.country_id}`);
+    console.log(`jwt middleware request.userId: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find the user who's creating the review in order to tie the review to the user id
+      db.User.findOne({_id: request.body.user_id})
       .exec()
       .then( (foundUser) => {
         console.log(`found user when creating a post: ${foundUser}`);
@@ -92,6 +96,9 @@ module.exports = {
         console.log(`db.User.findOne.catch error when creating a review: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 
   // edit a review
