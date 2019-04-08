@@ -60,7 +60,6 @@ module.exports = {
   // add a review
   add: (request, response) => {
     console.log(`add a review request from: ${request.body.user_id}`);
-    console.log(`addReview request for country: ${request.body.country_id}`);
     console.log(`jwt middleware request.userId: ${request.userId}`);
     // if there's a value to request.userId, then...
     if (request.userId) {
@@ -104,23 +103,28 @@ module.exports = {
   // edit a review
   // [] DO I NEED TO POPULATE USER AND/OR COUNTRY INFO...?
   edit: (request, response) => {
-    console.log(`edit post request ${request.body}`);
-    db.Reviews.findOneAndUpdate(
-      {_id: request.params.id},
-      // request.body will hold the content of the review to be updated
-      // can hold multiple properties
-      request.body,
-      // return the updated review
-      { new: true }
-    ).populate('user_id')
-      .exec()
-      .then( (updatedReview) => {
-        console.log(`updated review: ${updatedReview}`);
-        response.json(updatedReview);
-      }).catch( (error) => {
-        console.log(`update review error: ${error}`);
-        response.status(500).json({error: error});
-      });
+    console.log(`jwt middleware request.userId: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.Reviews.findOneAndUpdate(
+        {_id: request.params.id},
+        // request.body will hold the content of the review to be updated
+        // can hold multiple properties
+        request.body,
+        // return the updated review
+        { new: true }
+      ).populate('user_id')
+        .exec()
+        .then( (updatedReview) => {
+          console.log(`updated review: ${updatedReview}`);
+          response.json(updatedReview);
+        }).catch( (error) => {
+          console.log(`update review error: ${error}`);
+          response.status(500).json({error: error});
+        });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 
   // delete a review
