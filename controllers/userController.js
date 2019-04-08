@@ -137,6 +137,7 @@ module.exports = {
       });
   },
 
+  // =====================  admin routes =====================
   showAllUsers: (request, response) => {
     db.User.find({}).populate('saved_tour_id')
       .exec()
@@ -160,10 +161,14 @@ module.exports = {
     });
   },
 
+  // =====================  user routes =====================
   showOneUser: (request, response) => {
     console.log(`get one user: ${request.params.id}`);
-    // find user by id
-    db.User.findOne({_id: request.params.id})
+    console.log(`jwt middleware request.userId: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find user by id
+      db.User.findOne({_id: request.params.id})
       // bring in saved tour info
       .populate('saved_tour_id')
       .exec()
@@ -175,6 +180,9 @@ module.exports = {
         console.log(`can't find one user`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };    
   },
 
   // add saved tour

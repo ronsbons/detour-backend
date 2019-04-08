@@ -16,6 +16,7 @@ router.get('/:id', controllers.reviews.showOne);
 
 
 // user routes
+// middleware to intercept requests for routes that need jwt token/user auth
 router.use( (request, response, next) => {
   console.log(`activating jwt middleware on reviews routes`);
   // access headers from front-end request
