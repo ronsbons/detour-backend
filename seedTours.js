@@ -10,7 +10,7 @@ const newTours = [
     countries_visited: ['Ethiopia'],
     link: 'https://www.gadventures.com/trips/discover-ethiopia/DEAA/',
     // Ethiopia
-    primary_country_id: '5ca3c7c3143e781b614f004a',
+    primary_country_id: '5cabcae92c0db5000cfd6d9a',
   },
   {
     company: './images/G Adventures logo.png',
@@ -20,7 +20,7 @@ const newTours = [
     countries_visited: ['Kenya', 'Malawi', 'Tanzania', 'Zambia', 'Zimbabwe'],
     link: 'https://www.gadventures.com/trips/serengeti-to-victoria-falls-adventure/DNV/', 
     // Kenya
-    primary_country_id: '5ca3c7c3143e781b614f004b',
+    primary_country_id: '5cabcae92c0db5000cfd6d9b',
   },
   {
     company: './images/G Adventures logo.png',
@@ -30,7 +30,7 @@ const newTours = [
     countries_visited: ['South Africa', 'Namibia'],
     link: 'https://www.gadventures.com/trips/cape-dunes-overland-southbound/DNDO/', 
     // South Africa
-    primary_country_id: '5ca3c7c3143e781b614f004c',
+    primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
     company: './images/G Adventures logo.png',
@@ -40,7 +40,7 @@ const newTours = [
     countries_visited: ['Uganda'],
     link: 'https://www.gadventures.com/trips/uganda-gorillas-overland/DUKK/', 
     // Uganda
-    primary_country_id: '5ca3c7c3143e781b614f004e',
+    primary_country_id: '5cabcae92c0db5000cfd6d9e',
   },
   {
     company: './images/G Adventures logo.png',
@@ -50,7 +50,7 @@ const newTours = [
     countries_visited: ['Tanzania'],
     link: 'https://www.gadventures.com/trips/mt-kilimanjaro-trek-marangu-route/DTKM/', 
     // Tanzania
-    primary_country_id: '5ca3c7c3143e781b614f004d',
+    primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
     company: './images/G Adventures logo.png',
@@ -60,7 +60,7 @@ const newTours = [
     countries_visited: ['Kenya', 'Malawi', 'Tanzania', 'Zambia', 'Zimbabwe'],
     link: 'https://www.gadventures.com/trips/serengeti-to-victoria-falls-adventure/DNV/', 
     // Zimbabwe
-    primary_country_id: '5ca3c7c3143e781b614f004f',
+    primary_country_id: '5cabcae92c0db5000cfd6d9f',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -70,7 +70,7 @@ const newTours = [
     countries_visited: ['Kenya', 'Tanzania'],
     link: 'https://www.contiki.com/us/en/destinations/africa-the-middle-east/tours/east-africa-safari-3815', 
     // Kenya
-    primary_country_id: '5ca3c7c3143e781b614f004b',
+    primary_country_id: '5cabcae92c0db5000cfd6d9b',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -80,7 +80,7 @@ const newTours = [
     countries_visited: ['South Africa', 'Zimbabwe', 'Botswana'],
     link: 'https://www.contiki.com/us/en/destinations/africa-the-middle-east/tours/cape-safari-falls-3814', 
     // South Africa
-    primary_country_id: '5ca3c7c3143e781b614f004c',
+    primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -90,7 +90,7 @@ const newTours = [
     countries_visited: ['Uganda'],
     link: 'https://www.contiki.com/us/en/destinations/africa-the-middle-east/tours/gorilla-trek-3835', 
     // Uganda
-    primary_country_id: '5ca3c7c3143e781b614f004e',
+    primary_country_id: '5cabcae92c0db5000cfd6d9e',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -100,7 +100,7 @@ const newTours = [
     countries_visited: ['Tanzania'],
     link: 'https://www.contiki.com/us/en/destinations/africa-the-middle-east/tours/rongai-kili-climb-3812', 
     // Tanzania
-    primary_country_id: '5ca3c7c3143e781b614f004d',
+    primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -110,7 +110,7 @@ const newTours = [
     countries_visited: ['South Africa', 'Zimbabwe', 'Botswana'],
     link: 'https://www.contiki.com/us/en/destinations/africa-the-middle-east/tours/cape-safari-falls-3814', 
     // Zimbabwe
-    primary_country_id: '5ca3c7c3143e781b614f004f',
+    primary_country_id: '5cabcae92c0db5000cfd6d9f',
   },
   {
     company: './images/flashpack.png',
@@ -120,7 +120,7 @@ const newTours = [
     countries_visited: ['South Africa'],
     link: 'https://www.flashpack.com/adventure-trips/south-africa-garden-route/', 
     // South Africa
-    primary_country_id: '5ca3c7c3143e781b614f004c',
+    primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
     company: './images/flashpack.png',
@@ -130,7 +130,7 @@ const newTours = [
     countries_visited: ['Tanzania'],
     link: 'https://www.flashpack.com/adventure-trips/tanzania-small-group-adventure-solo-travellers/', 
     // Tanzania
-    primary_country_id: '5ca3c7c3143e781b614f004d',
+    primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
     company: './images/flashpack.png',
@@ -140,7 +140,7 @@ const newTours = [
     countries_visited: ['Zimbabwe', 'Botswana'],
     link: 'https://www.flashpack.com/adventure-trips/the-ultimate-safari-in-zimbabwe-and-botswana/', 
     // Zimbabwe
-    primary_country_id: '5ca3c7c3143e781b614f004f',
+    primary_country_id: '5cabcae92c0db5000cfd6d9f',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -150,7 +150,7 @@ const newTours = [
     countries_visited: ['Kenya', 'Uganda'],
     link: 'https://www.topdeck.travel/tours/gorilla-encounter', 
     // Kenya
-    primary_country_id: '5ca3c7c3143e781b614f004b',
+    primary_country_id: '5cabcae92c0db5000cfd6d9b',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -160,7 +160,7 @@ const newTours = [
     countries_visited: ['South Africa', 'Swaziland'],
     link: 'https://www.topdeck.travel/tours/kruger-swazi-beach', 
     // South Africa
-    primary_country_id: '5ca3c7c3143e781b614f004c',
+    primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -170,7 +170,7 @@ const newTours = [
     countries_visited: ['Uganda'],
     link: 'https://www.topdeck.travel/tours/troop-to-the-gorillas', 
     // Uganda
-    primary_country_id: '5ca3c7c3143e781b614f004e',
+    primary_country_id: '5cabcae92c0db5000cfd6d9e',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -180,7 +180,7 @@ const newTours = [
     countries_visited: ['Tanzania', 'Kenya'],
     link: 'https://www.topdeck.travel/tours/highlights-of-tanzania', 
     // Tanzania
-    primary_country_id: '5ca3c7c3143e781b614f004d',
+    primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -190,7 +190,7 @@ const newTours = [
     countries_visited: ['Zimbabwe', 'South Africa', 'Zambia'],
     link: 'https://www.topdeck.travel/tours/african-insight', 
     // Zimbabwe
-    primary_country_id: '5ca3c7c3143e781b614f004f',
+    primary_country_id: '5cabcae92c0db5000cfd6d9f',
   },
   // =================  Asia tours  =================
   {
@@ -201,7 +201,7 @@ const newTours = [
     countries_visited: ['China'],
     link: 'https://www.gadventures.com/trips/essential-china/ACEC/', 
     // China
-    primary_country_id: '5ca3c7c3143e781b614f0050',
+    primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -211,7 +211,7 @@ const newTours = [
     countries_visited: ['China'],
     link: 'https://www.contiki.com/us/en/destinations/asia/tours/china-adventure-3650', 
     // China
-    primary_country_id: '5ca3c7c3143e781b614f0050',
+    primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
     company: './images/flashpack.png',
@@ -221,7 +221,7 @@ const newTours = [
     countries_visited: ['China'],
     link: 'https://www.flashpack.com/adventure-trips/china-small-group-adventure-solo-travellers-2/', 
     // China
-    primary_country_id: '5ca3c7c3143e781b614f0050',
+    primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -231,7 +231,7 @@ const newTours = [
     countries_visited: ['China'],
     link: 'https://www.topdeck.travel/tours/china-live', 
     // China
-    primary_country_id: '5ca3c7c3143e781b614f0050',
+    primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
     company: './images/G Adventures logo.png',
@@ -241,7 +241,7 @@ const newTours = [
     countries_visited: ['India', 'Nepal'],
     link: 'https://www.gadventures.com/trips/delhi-to-kathmandu-adventure/AHDK/', 
     // India
-    primary_country_id: '5ca3c7c3143e781b614f0051',
+    primary_country_id: '5cabcae92c0db5000cfd6da1',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -251,7 +251,7 @@ const newTours = [
     countries_visited: ['India', 'Nepal'],
     link: 'https://www.contiki.com/us/en/destinations/asia/tours/eternal-india-3026', 
     // India
-    primary_country_id: '5ca3c7c3143e781b614f0051',
+    primary_country_id: '5cabcae92c0db5000cfd6da1',
   },
   {
     company: './images/flashpack.png',
@@ -261,7 +261,7 @@ const newTours = [
     countries_visited: ['India'],
     link: 'https://www.flashpack.com/adventure-trips/north-india-small-group-adventure-solo-travellers/', 
     // India
-    primary_country_id: '5ca3c7c3143e781b614f0051',
+    primary_country_id: '5cabcae92c0db5000cfd6da1',
   },
   {
     company: './images/G Adventures logo.png',
@@ -271,7 +271,7 @@ const newTours = [
     countries_visited: ['Japan'],
     link: 'https://www.gadventures.com/trips/epic-japan/AJTO/', 
     // Japan
-    primary_country_id: '5ca3c7c3143e781b614f0053',
+    primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -281,7 +281,7 @@ const newTours = [
     countries_visited: ['Japan'],
     link: 'https://www.contiki.com/us/en/destinations/asia/tours/japan-winter-wonder-3681', 
     // Japan
-    primary_country_id: '5ca3c7c3143e781b614f0053',
+    primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
     company: './images/flashpack.png',
@@ -291,7 +291,7 @@ const newTours = [
     countries_visited: ['Japan'],
     link: 'https://www.flashpack.com/adventure-trips/japan-small-group-tour-solo-travellers/', 
     // Japan
-    primary_country_id: '5ca3c7c3143e781b614f0053',
+    primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -301,7 +301,7 @@ const newTours = [
     countries_visited: ['Japan'],
     link: 'https://www.topdeck.travel/tours/japan-express', 
     // Japan
-    primary_country_id: '5ca3c7c3143e781b614f0053',
+    primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
     company: './images/G Adventures logo.png',
@@ -311,7 +311,7 @@ const newTours = [
     countries_visited: ['Indonesia'],
     link: 'https://www.gadventures.com/trips/best-of-java/AEJV/', 
     // Indonesia
-    primary_country_id: '5ca3c7c3143e781b614f0052',
+    primary_country_id: '5cabcae92c0db5000cfd6da2',
   },
   {
     company: './images/flashpack.png',
@@ -321,7 +321,7 @@ const newTours = [
     countries_visited: ['Indonesia'],
     link: 'https://www.flashpack.com/adventure-trips/komodo-flores-small-group-tour-solo-travellers/', 
     // Indonesia
-    primary_country_id: '5ca3c7c3143e781b614f0052',
+    primary_country_id: '5cabcae92c0db5000cfd6da2',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -331,7 +331,7 @@ const newTours = [
     countries_visited: ['Indonesia'],
     link: 'https://www.topdeck.travel/tours/search#/tours/search?regions=2515&countries=2566', 
     // Indonesia
-    primary_country_id: '5ca3c7c3143e781b614f0052',
+    primary_country_id: '5cabcae92c0db5000cfd6da2',
   },
   {
     company: './images/G Adventures logo.png',
@@ -341,7 +341,7 @@ const newTours = [
     countries_visited: ['Thailand', 'Vietnam', 'Cambodia', 'Laos'],
     link: 'https://www.gadventures.com/trips/indochina-discovery/ATID/', 
     // Thailand
-    primary_country_id: '5ca3c7c3143e781b614f0054',
+    primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -351,7 +351,7 @@ const newTours = [
     countries_visited: ['Thailand'],
     link: 'https://www.contiki.com/us/en/destinations/asia/tours/total-thailand-3819', 
     // Thailand
-    primary_country_id: '5ca3c7c3143e781b614f0054',
+    primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
     company: './images/flashpack.png',
@@ -361,7 +361,7 @@ const newTours = [
     countries_visited: ['Thailand'],
     link: 'https://www.flashpack.com/adventure-trips/thailand-small-group-tour-solo-travellers/', 
     // Thailand
-    primary_country_id: '5ca3c7c3143e781b614f0054',
+    primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -371,7 +371,7 @@ const newTours = [
     countries_visited: ['Thailand'],
     link: 'https://www.topdeck.travel/tours/thailand-express', 
     // Thailand
-    primary_country_id: '5ca3c7c3143e781b614f0054',
+    primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
     company: './images/G Adventures logo.png',
@@ -381,7 +381,7 @@ const newTours = [
     countries_visited: ['Thailand', 'Vietnam', 'Cambodia', 'Laos'],
     link: 'https://www.gadventures.com/trips/indochina-discovery/ATID/',
     // Vietnam
-    primary_country_id: '5ca3c7c3143e781b614f0055',
+    primary_country_id: '5cabcae92c0db5000cfd6da5',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -391,7 +391,7 @@ const newTours = [
     countries_visited: ['Vietnam'],
     link: 'https://www.contiki.com/us/en/destinations/asia/tours/vietnam-experience-220',
     // Vietnam
-    primary_country_id: '5ca3c7c3143e781b614f0055',
+    primary_country_id: '5cabcae92c0db5000cfd6da5',
   },
   {
     company: './images/flashpack.png',
@@ -401,7 +401,7 @@ const newTours = [
     countries_visited: ['Vietnam', 'Thailand', 'Cambodia'],
     link: 'https://www.flashpack.com/adventure-trips/south-east-asia-small-group-tour-solo-travellers/',
     // Vietnam
-    primary_country_id: '5ca3c7c3143e781b614f0055',
+    primary_country_id: '5cabcae92c0db5000cfd6da5',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -411,7 +411,7 @@ const newTours = [
     countries_visited: ['Vietnam'],
     link: 'https://www.topdeck.travel/tours/vietnam-uncovered',
     // Vietnam
-    primary_country_id: '5ca3c7c3143e781b614f0055',
+    primary_country_id: '5cabcae92c0db5000cfd6da5',
   },
   // =================  Australia tours  =================
   {
@@ -422,7 +422,7 @@ const newTours = [
     countries_visited: ['Australia'],
     link: 'https://www.gadventures.com/trips/complete-australia/OAMC/',
     // Australia
-    primary_country_id: '5ca3c7c3143e781b614f0056',
+    primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -432,7 +432,7 @@ const newTours = [
     countries_visited: ['Australia'],
     link: 'https://www.contiki.com/us/en/destinations/australia/tours/the-big-walkabout-start-sydney-3706',
     // Australia
-    primary_country_id: '5ca3c7c3143e781b614f0056',
+    primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
     company: './images/flashpack.png',
@@ -442,7 +442,7 @@ const newTours = [
     countries_visited: ['Australia'],
     link: 'https://www.flashpack.com/adventure-trips/australia-small-group-adventure-solo-travellers-2/',
     // Australia
-    primary_country_id: '5ca3c7c3143e781b614f0056',
+    primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -452,7 +452,7 @@ const newTours = [
     countries_visited: ['Australia'],
     link: 'https://www.topdeck.travel/tours/ultimate-surfari',
     // Australia
-    primary_country_id: '5ca3c7c3143e781b614f0056',
+    primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
     company: './images/G Adventures logo.png',
@@ -462,7 +462,7 @@ const newTours = [
     countries_visited: ['New Zealand'],
     link: 'https://www.gadventures.com/trips/new-zealand-south-island-encompassed/ONSE/',
     // New Zealand
-    primary_country_id: '5ca3c7c3143e781b614f0057',
+    primary_country_id: '5cabcae92c0db5000cfd6da7',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -472,7 +472,7 @@ const newTours = [
     countries_visited: ['New Zealand'],
     link: 'https://www.contiki.com/us/en/destinations/new-zealand/tours/the-big-tiki-auckland-to-christchurch-winter-3663',
     // New Zealand
-    primary_country_id: '5ca3c7c3143e781b614f0057',
+    primary_country_id: '5cabcae92c0db5000cfd6da7',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -482,7 +482,7 @@ const newTours = [
     countries_visited: ['New Zealand'],
     link: 'https://www.topdeck.travel/tours/sweet-as-north',
     // New Zealand
-    primary_country_id: '5ca3c7c3143e781b614f0057',
+    primary_country_id: '5cabcae92c0db5000cfd6da7',
   },
   // =================  Europe tours  =================
   {
@@ -493,7 +493,7 @@ const newTours = [
     countries_visited: ['Croatia'],
     link: 'https://www.gadventures.com/trips/sailing-croatia-split-to-dubrovnik/ECVS/',
     // Croatia
-    primary_country_id: '5ca3c7c3143e781b614f0058',
+    primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -503,7 +503,7 @@ const newTours = [
     countries_visited: ['Croatia'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/croatia-island-escape-3266',
     // Croatia
-    primary_country_id: '5ca3c7c3143e781b614f0058',
+    primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
     company: './images/flashpack.png',
@@ -513,7 +513,7 @@ const newTours = [
     countries_visited: ['Croatia'],
     link: 'https://www.flashpack.com/adventure-trips/coastal-croatia-small-group-tour-solo-travellers/',
     // Croatia
-    primary_country_id: '5ca3c7c3143e781b614f0058',
+    primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -523,7 +523,7 @@ const newTours = [
     countries_visited: ['Croatia', 'Romania', 'Bulgaria', 'Serbia', 'Bosnia and Herzegovina'],
     link: 'https://www.topdeck.travel/tours/eastern-discovery',
     // Croatia
-    primary_country_id: '5ca3c7c3143e781b614f0058',
+    primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
     company: './images/G Adventures logo.png',
@@ -533,7 +533,7 @@ const newTours = [
     countries_visited: ['France', 'Switzerland', 'Italy'],
     link: 'https://www.gadventures.com/trips/trekking-mont-blanc/EFMB/',
     // France
-    primary_country_id: '5ca3c7c3143e781b614f0059',
+    primary_country_id: '5cabcae92c0db5000cfd6da9',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -543,7 +543,7 @@ const newTours = [
     countries_visited: ['France', 'England', 'Spain', 'Italy', 'Greece', 'Albania', 'Croatia', 'Slovenia', 'Austria', 'Germany', 'Switzerland', 'Netherlands', 'Monaco', 'The Vatican', 'Montenegro', 'Bosnia and Herzegovina', 'Liechtenstein', 'Belgium'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/european-adventurer-107',
     // France
-    primary_country_id: '5ca3c7c3143e781b614f0059',
+    primary_country_id: '5cabcae92c0db5000cfd6da9',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -553,7 +553,7 @@ const newTours = [
     countries_visited: ['France', 'Spain'],
     link: 'https://www.topdeck.travel/tours/southern-runner',
     // France
-    primary_country_id: '5ca3c7c3143e781b614f0059',
+    primary_country_id: '5cabcae92c0db5000cfd6da9',
   },
   {
     company: './images/G Adventures logo.png',
@@ -563,7 +563,7 @@ const newTours = [
     countries_visited: ['Greece'],
     link: 'https://www.gadventures.com/trips/sailing-greece-santorini-to-mykonos/GVSM/',
     // Greece
-    primary_country_id: '5ca3c7c3143e781b614f005a',
+    primary_country_id: '5cabcae92c0db5000cfd6daa',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -573,7 +573,7 @@ const newTours = [
     countries_visited: ['Greece'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/greek-island-hopping-131',
     // Greece
-    primary_country_id: '5ca3c7c3143e781b614f005a',
+    primary_country_id: '5cabcae92c0db5000cfd6daa',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -583,7 +583,7 @@ const newTours = [
     countries_visited: ['Greece'],
     link: 'https://www.topdeck.travel/tours/greece-lightning',
     // Greece
-    primary_country_id: '5ca3c7c3143e781b614f005a',
+    primary_country_id: '5cabcae92c0db5000cfd6daa',
   },
   {
     company: './images/G Adventures logo.png',
@@ -593,7 +593,7 @@ const newTours = [
     countries_visited: ['Spain'],
     link: 'https://www.gadventures.com/trips/walk-the-camino-de-santiago/ESCS/',
     // Spain
-    primary_country_id: '5ca3c7c3143e781b614f005d',
+    primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -603,7 +603,7 @@ const newTours = [
     countries_visited: ['Spain'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/spanish-spree-155',
     // Spain
-    primary_country_id: '5ca3c7c3143e781b614f005d',
+    primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
     company: './images/flashpack.png',
@@ -613,7 +613,7 @@ const newTours = [
     countries_visited: ['Spain'],
     link: 'https://www.flashpack.com/adventure-trips/vespa-road-trip/',
     // Spain
-    primary_country_id: '5ca3c7c3143e781b614f005d',
+    primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -623,7 +623,7 @@ const newTours = [
     countries_visited: ['France', 'Spain'],
     link: 'https://www.topdeck.travel/tours/southern-runner',
     // Spain
-    primary_country_id: '5ca3c7c3143e781b614f005d',
+    primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
     company: './images/G Adventures logo.png',
@@ -633,7 +633,7 @@ const newTours = [
     countries_visited: ['Norway'],
     link: 'https://www.gadventures.com/trips/cruise-the-norwegian-fjords-in-depth-tromso-bergen/XVNFNX/',
     // Norway
-    primary_country_id: '5ca3c7c3143e781b614f005c',
+    primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -643,7 +643,7 @@ const newTours = [
     countries_visited: ['Norway', 'Germany', 'Denmark', 'Sweden'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/scandinavia-end-stockholm-241',
     // Norway
-    primary_country_id: '5ca3c7c3143e781b614f005c',
+    primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
     company: './images/flashpack.png',
@@ -653,7 +653,7 @@ const newTours = [
     countries_visited: ['Norway'],
     link: 'https://www.flashpack.com/adventure-trips/norway-small-group-tour-solo-travellers/',
     // Norway
-    primary_country_id: '5ca3c7c3143e781b614f005c',
+    primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -663,7 +663,7 @@ const newTours = [
     countries_visited: ['Norway', 'Denmark', 'Sweden'],
     link: 'https://www.topdeck.travel/tours/winter-scandi-express',
     // Norway
-    primary_country_id: '5ca3c7c3143e781b614f005c',
+    primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
     company: './images/G Adventures logo.png',
@@ -673,7 +673,7 @@ const newTours = [
     countries_visited: ['France', 'Switzerland', 'Italy'],
     link: 'https://www.gadventures.com/trips/trekking-mont-blanc/EFMB/',
     // Italy
-    primary_country_id: '5ca3c7c3143e781b614f005b',
+    primary_country_id: '5cabcae92c0db5000cfd6dab',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -683,7 +683,7 @@ const newTours = [
     countries_visited: ['Italy'],
     link: 'https://www.contiki.com/us/en/destinations/europe/tours/simply-italy-152',
     // Italy
-    primary_country_id: '5ca3c7c3143e781b614f005b',
+    primary_country_id: '5cabcae92c0db5000cfd6dab',
   },
   {
     company: './images/flashpack.png',
@@ -693,7 +693,7 @@ const newTours = [
     countries_visited: ['Italy'],
     link: 'https://www.flashpack.com/adventure-trips/sicily-small-group-tour-solo-travellers/',
     // Italy
-    primary_country_id: '5ca3c7c3143e781b614f005b',
+    primary_country_id: '5cabcae92c0db5000cfd6dab',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -703,7 +703,7 @@ const newTours = [
     countries_visited: ['Italy', 'France', 'Switzerland', 'Vatican City'],
     link: 'https://www.topdeck.travel/tours/western-inspiration',
     // Italy
-    primary_country_id: '5ca3c7c3143e781b614f005b',
+    primary_country_id: '5cabcae92c0db5000cfd6dab',
   },
   // =================  North America tours  =================
   {
@@ -714,7 +714,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
     // Belize
-    primary_country_id: '5ca3c7c3143e781b614f005e',
+    primary_country_id: '5cabcae92c0db5000cfd6dae',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -724,7 +724,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/caribbean-encounter-from-dec2019-3865',
     // Belize
-    primary_country_id: '5ca3c7c3143e781b614f005e',
+    primary_country_id: '5cabcae92c0db5000cfd6dae',
   },
   {
     company: './images/flashpack.png',
@@ -734,7 +734,7 @@ const newTours = [
     countries_visited: ['Belize'],
     link: 'https://www.flashpack.com/adventure-trips/belize-small-group-tour-solo-travellers/',
     // Belize
-    primary_country_id: '5ca3c7c3143e781b614f005e',
+    primary_country_id: '5cabcae92c0db5000cfd6dae',
   },
   {
     company: './images/G Adventures logo.png',
@@ -744,7 +744,7 @@ const newTours = [
     countries_visited: ['Canada'],
     link: 'https://www.gadventures.com/trips/national-parks-of-the-canadian-rockies-eastbound/NCUR/',
     // Canada
-    primary_country_id: '5ca3c7c3143e781b614f005f',
+    primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -754,7 +754,7 @@ const newTours = [
     countries_visited: ['Canada'],
     link: 'https://www.contiki.com/us/en/destinations/usa-canada/tours/grand-canadian-260',
     // Canada
-    primary_country_id: '5ca3c7c3143e781b614f005f',
+    primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
     company: './images/flashpack.png',
@@ -764,7 +764,7 @@ const newTours = [
     countries_visited: ['Canada'],
     link: 'https://www.flashpack.com/adventure-trips/canada-winter-small-group-adventure-solo-travellers/',
     // Canada
-    primary_country_id: '5ca3c7c3143e781b614f005f',
+    primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -774,7 +774,7 @@ const newTours = [
     countries_visited: ['Canada', 'United States'],
     link: 'https://www.topdeck.travel/tours/the-maple-trail',
     // Canada
-    primary_country_id: '5ca3c7c3143e781b614f005f',
+    primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
     company: './images/G Adventures logo.png',
@@ -784,7 +784,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
     // Mexico
-    primary_country_id: '5ca3c7c3143e781b614f0062',
+    primary_country_id: '5cabcae92c0db5000cfd6db2',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -794,7 +794,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/latin-legends-until-nov2019-1796',
     // Mexico
-    primary_country_id: '5ca3c7c3143e781b614f0062',
+    primary_country_id: '5cabcae92c0db5000cfd6db2',
   },
   {
     company: './images/flashpack.png',
@@ -804,7 +804,7 @@ const newTours = [
     countries_visited: ['Mexico'],
     link: 'https://www.flashpack.com/adventure-trips/yucatan-small-group-adventure-solo-travellers/',
     // Mexico
-    primary_country_id: '5ca3c7c3143e781b614f0062',
+    primary_country_id: '5cabcae92c0db5000cfd6db2',
   },
   {
     company: './images/G Adventures logo.png',
@@ -814,7 +814,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.gadventures.com/trips/mayan-adventure/CAM/',
     // Guatemala
-    primary_country_id: '5ca3c7c3143e781b614f0061',
+    primary_country_id: '5cabcae92c0db5000cfd6db1',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -824,7 +824,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala', 'Mexico'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/sol-seeker-until-nov2019-1816',
     // Guatemala
-    primary_country_id: '5ca3c7c3143e781b614f0061',
+    primary_country_id: '5cabcae92c0db5000cfd6db1',
   },
   {
     company: './images/flashpack.png',
@@ -834,7 +834,7 @@ const newTours = [
     countries_visited: ['Belize', 'Guatemala'],
     link: 'https://www.flashpack.com/adventure-trips/guatemala-belize-small-group-adventure-solo-travellers/',
     // Guatemala
-    primary_country_id: '5ca3c7c3143e781b614f0061',
+    primary_country_id: '5cabcae92c0db5000cfd6db1',
   },
   {
     company: './images/G Adventures logo.png',
@@ -844,7 +844,7 @@ const newTours = [
     countries_visited: ['Costa Rica'],
     link: 'https://www.gadventures.com/trips/costa-rica-quest/CRQ/',
     // Costa Rica
-    primary_country_id: '5ca3c7c3143e781b614f0060',
+    primary_country_id: '5cabcae92c0db5000cfd6db0',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -854,7 +854,7 @@ const newTours = [
     countries_visited: ['Costa Rica', 'Mexico', 'Belize', 'Guatemala'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/playas-of-paradise-until-nov2019-3676',
     // Costa Rica
-    primary_country_id: '5ca3c7c3143e781b614f0060',
+    primary_country_id: '5cabcae92c0db5000cfd6db0',
   },
   {
     company: './images/flashpack.png',
@@ -864,7 +864,7 @@ const newTours = [
     countries_visited: ['Costa Rica'],
     link: 'https://www.flashpack.com/adventure-trips/costa-rica-small-group-tour-solo-travellers/',
     // Costa Rica
-    primary_country_id: '5ca3c7c3143e781b614f0060',
+    primary_country_id: '5cabcae92c0db5000cfd6db0',
   },
   {
     company: './images/G Adventures logo.png',
@@ -874,7 +874,7 @@ const newTours = [
     countries_visited: ['United States'],
     link: 'https://www.gadventures.com/trips/best-of-the-west/NUBW/',
     // United States
-    primary_country_id: '5ca3c7c3143e781b614f0063',
+    primary_country_id: '5cabcae92c0db5000cfd6db3',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -884,7 +884,7 @@ const newTours = [
     countries_visited: ['United States', 'Canada'],
     link: 'https://www.contiki.com/us/en/destinations/usa-canada/tours/epic-adventure-3808',
     // United States
-    primary_country_id: '5ca3c7c3143e781b614f0063',
+    primary_country_id: '5cabcae92c0db5000cfd6db3',
   },
   {
     company: './images/flashpack.png',
@@ -894,7 +894,7 @@ const newTours = [
     countries_visited: ['United States'],
     link: 'https://www.flashpack.com/adventure-trips/deep-south-usa-small-group-adventure-solo-travellers/',
     // United States
-    primary_country_id: '5ca3c7c3143e781b614f0063',
+    primary_country_id: '5cabcae92c0db5000cfd6db3',
   },
   {
     company: './images/topdeck-travel-logo.png',
@@ -904,7 +904,7 @@ const newTours = [
     countries_visited: ['United States'],
     link: 'https://www.topdeck.travel/tours/vegas-to-the-bay-finish-la',
     // United States
-    primary_country_id: '5ca3c7c3143e781b614f0063',
+    primary_country_id: '5cabcae92c0db5000cfd6db3',
   },
   // =================  South America tours  =================
   {
@@ -915,7 +915,7 @@ const newTours = [
     countries_visited: ['Argentina', 'Falkland Islands', 'Antarctica', 'Uruguay'],
     link: 'https://www.gadventures.com/trips/falklands-south-georgia-and-antarctica/XVGFSX/',
     // Argentina
-    primary_country_id: '5ca3c7c3143e781b614f0064',
+    primary_country_id: '5cabcae92c0db5000cfd6db4',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -925,7 +925,7 @@ const newTours = [
     countries_visited: ['Argentina', 'Brazil', 'Peru'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/the-explorer-until-jan2020-2826',
     // Argentina
-    primary_country_id: '5ca3c7c3143e781b614f0064',
+    primary_country_id: '5cabcae92c0db5000cfd6db4',
   },
   {
     company: './images/flashpack.png',
@@ -935,7 +935,7 @@ const newTours = [
     countries_visited: ['Argentina'],
     link: 'https://www.flashpack.com/adventure-trips/argentina-small-group-adventure-solo-travellers/',
     // Argentina
-    primary_country_id: '5ca3c7c3143e781b614f0064',
+    primary_country_id: '5cabcae92c0db5000cfd6db4',
   },
   {
     company: './images/G Adventures logo.png',
@@ -945,7 +945,7 @@ const newTours = [
     countries_visited: ['Ecuador'],
     link: 'https://www.gadventures.com/trips/ecuador-beaches-and-coastal-adventure/SECE/',
     // Ecuador
-    primary_country_id: '5ca3c7c3143e781b614f0067',
+    primary_country_id: '5cabcae92c0db5000cfd6db7',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -955,7 +955,7 @@ const newTours = [
     countries_visited: ['Ecuador'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/the-lava-line-with-me-to-we-3576',
     // Ecuador
-    primary_country_id: '5ca3c7c3143e781b614f0067',
+    primary_country_id: '5cabcae92c0db5000cfd6db7',
   },
   {
     company: './images/G Adventures logo.png',
@@ -965,7 +965,7 @@ const newTours = [
     countries_visited: ['Brazil', 'Argentina', 'Uruguay'],
     link: 'https://www.gadventures.com/trips/in-search-of-iguassu-buenos-aires-to-rio/JBR/',
     // Brazil
-    primary_country_id: '5ca3c7c3143e781b614f0065',
+    primary_country_id: '5cabcae92c0db5000cfd6db5',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -975,7 +975,7 @@ const newTours = [
     countries_visited: ['Brazil', 'Argentina'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/argentina-brazil-experience-2836',
     // Brazil
-    primary_country_id: '5ca3c7c3143e781b614f0065',
+    primary_country_id: '5cabcae92c0db5000cfd6db5',
   },
   {
     company: './images/flashpack.png',
@@ -985,7 +985,7 @@ const newTours = [
     countries_visited: ['Brazil'],
     link: 'https://www.flashpack.com/adventure-trips/brazil-small-group-tour-solo-travellers/',
     // Brazil
-    primary_country_id: '5ca3c7c3143e781b614f0065',
+    primary_country_id: '5cabcae92c0db5000cfd6db5',
   },
   {
     company: './images/G Adventures logo.png',
@@ -995,7 +995,7 @@ const newTours = [
     countries_visited: ['Galapagos Islands', 'Ecuador'],
     link: 'https://www.gadventures.com/trips/galapagos-express/SEGB/',
     // Galapagos Islands
-    primary_country_id: '5ca3c7c3143e781b614f0068',
+    primary_country_id: '5cabcae92c0db5000cfd6db8',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -1005,7 +1005,7 @@ const newTours = [
     countries_visited: ['Galapagos Islands', 'Ecuador'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/galapagos-island-hopper-1766',
     // Galapagos Islands
-    primary_country_id: '5ca3c7c3143e781b614f0068',
+    primary_country_id: '5cabcae92c0db5000cfd6db8',
   },
   {
     company: './images/G Adventures logo.png',
@@ -1015,7 +1015,7 @@ const newTours = [
     countries_visited: ['Colombia'],
     link: 'https://www.gadventures.com/trips/colombia-multisport/SMCA/',
     // Colombia
-    primary_country_id: '5ca3c7c3143e781b614f0066',
+    primary_country_id: '5cabcae92c0db5000cfd6db6',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -1025,7 +1025,7 @@ const newTours = [
     countries_visited: ['Colombia'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/hola-colombia-3861',
     // Colombia
-    primary_country_id: '5ca3c7c3143e781b614f0066',
+    primary_country_id: '5cabcae92c0db5000cfd6db6',
   },
   {
     company: './images/flashpack.png',
@@ -1035,7 +1035,7 @@ const newTours = [
     countries_visited: ['Colombia'],
     link: 'https://www.flashpack.com/adventure-trips/come-to-colombia/',
     // Colombia
-    primary_country_id: '5ca3c7c3143e781b614f0066',
+    primary_country_id: '5cabcae92c0db5000cfd6db6',
   },
   {
     company: './images/G Adventures logo.png',
@@ -1045,7 +1045,7 @@ const newTours = [
     countries_visited: ['Peru'],
     link: 'https://www.gadventures.com/trips/amazon-to-the-andes/PAA/',
     // Peru
-    primary_country_id: '5ca3c7c3143e781b614f0069',
+    primary_country_id: '5cabcae92c0db5000cfd6db9',
   },
   {
     company: './images/contiki-logo-vector.svg',
@@ -1055,7 +1055,7 @@ const newTours = [
     countries_visited: ['Peru'],
     link: 'https://www.contiki.com/us/en/destinations/latin-america/tours/peru-uncovered-2746',
     // Peru
-    primary_country_id: '5ca3c7c3143e781b614f0069',
+    primary_country_id: '5cabcae92c0db5000cfd6db9',
   },
   {
     company: './images/flashpack.png',
@@ -1065,7 +1065,7 @@ const newTours = [
     countries_visited: ['Peru'],
     link: 'https://www.flashpack.com/adventure-trips/peru-express-small-group-tour-solo-travellers/',
     // Peru
-    primary_country_id: '5ca3c7c3143e781b614f0069',
+    primary_country_id: '5cabcae92c0db5000cfd6db9',
   },
 ]
 
