@@ -3,7 +3,7 @@ const db = require('./models');
 const newTours = [
   // =================  Africa tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Discover Ethiopia',
     length: 10,
     cost: '$2349',
@@ -13,7 +13,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9a',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -23,7 +23,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9b',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Cape & Dunes Overland',
     length: 14,
     cost: '$1349',
@@ -33,7 +33,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Uganda & Gorillas Overland',
     length: 9,
     cost: '$1879',
@@ -43,7 +43,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9e',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Mt. Kilimanjaro Trek - Marangu Route',
     length: 7,
     cost: '$2337',
@@ -53,7 +53,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Serengeti to Victoria Falls Adventure',
     length: 20,
     cost: '$2662',
@@ -143,7 +143,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9f',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Gorilla Encounter',
     length: 14,
     cost: '$1650',
@@ -153,7 +153,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9b',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Kruger, Swazi & Beach',
     length: 7,
     cost: '$715',
@@ -163,7 +163,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9c',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Troop to the Gorillas',
     length: 6,
     cost: '$1015',
@@ -173,7 +173,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9e',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Highlights of Tanzania',
     length: 11,
     cost: '$1695',
@@ -183,7 +183,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6d9d',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'African Insight',
     length: 7,
     cost: '$1210',
@@ -194,7 +194,7 @@ const newTours = [
   },
   // =================  Asia tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Essential China',
     length: 21,
     cost: '$2849',
@@ -224,7 +224,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'China Live',
     length: 12,
     cost: '$2399',
@@ -234,7 +234,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da0',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Delhi to Kathmandu Adventure',
     length: 15,
     cost: '$1199',
@@ -264,7 +264,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da1',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Epic Japan',
     length: 11,
     cost: '$2209',
@@ -294,7 +294,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Japan Express',
     length: 7,
     cost: '$1334',
@@ -304,7 +304,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da3',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Best of Java',
     length: 9,
     cost: '$1104',
@@ -324,7 +324,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da2',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Bali Island Hopper',
     length: 7,
     cost: '$679',
@@ -334,7 +334,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da2',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -364,7 +364,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Thailand Express',
     length: 6,
     cost: '$594',
@@ -374,7 +374,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da4',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Indochina Discovery',
     length: 30,
     cost: '$2499',
@@ -404,7 +404,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da5',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Vietnam Uncovered',
     length: 13,
     cost: '$1444',
@@ -415,7 +415,7 @@ const newTours = [
   },
   // =================  Australia tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Complete Australia',
     length: 28,
     cost: '$4159',
@@ -445,7 +445,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Ultimate Surfari',
     length: 4,
     cost: '$719',
@@ -455,7 +455,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da6',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'New Zealand - South Island Encompassed',
     length: 16,
     cost: '$1839',
@@ -475,7 +475,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da7',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Sweet As North',
     length: 5,
     cost: '$679',
@@ -486,7 +486,7 @@ const newTours = [
   },
   // =================  Europe tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Sailing Croatia - Split to Dubrovnik',
     length: 8,
     cost: '$1087',
@@ -516,7 +516,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Eastern Discovery',
     length: 8,
     cost: '$1289',
@@ -526,7 +526,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da8',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -546,7 +546,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da9',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Southern Runner',
     length: 7,
     cost: '$899',
@@ -556,7 +556,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6da9',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Sailing Greece',
     length: 8,
     cost: '$929',
@@ -576,7 +576,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6daa',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Greece Lightning',
     length: 7,
     cost: '$1097',
@@ -586,7 +586,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6daa',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Walk the Camino de Santiago',
     length: 8,
     cost: '$1019',
@@ -616,7 +616,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Southern Runner',
     length: 7,
     cost: '$899',
@@ -626,7 +626,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dad',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Cruise the Norwegian Fjords In Depth - Tromso to Bergen',
     length: 11,
     cost: '$3349',
@@ -656,7 +656,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Winter Scandi Express',
     length: 8,
     cost: '$979',
@@ -666,7 +666,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dac',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Trekking Mont Blanc',
     length: 10,
     cost: '$1699',
@@ -696,7 +696,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dab',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Western Inspiration',
     length: 8,
     cost: '$939',
@@ -707,7 +707,7 @@ const newTours = [
   },
   // =================  North America tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -737,7 +737,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6dae',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'National Parks of the Canadian Rockies',
     length: 14,
     cost: '$2167',
@@ -767,7 +767,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'The Maple Trail',
     length: 8,
     cost: '$1239',
@@ -777,7 +777,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6daf',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -807,7 +807,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db2',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Mayan Adventure',
     length: 22,
     cost: '$2319',
@@ -837,7 +837,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db1',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Costa Rica Quest',
     length: 9,
     cost: '$979',
@@ -867,7 +867,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db0',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Best of the West',
     length: 15,
     cost: '$2023',
@@ -897,7 +897,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db3',
   },
   {
-    company: './images/topdeck-travel-logo.png',
+    company: './images/topdeck-logo.png',
     name: 'Vegas to the Bay',
     length: 7,
     cost: '$1079',
@@ -908,7 +908,7 @@ const newTours = [
   },
   // =================  South America tours  =================
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Falklands, South Georgia & Antarctica',
     length: 22,
     cost: '$12299',
@@ -938,7 +938,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db4',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Ecuador Beaches and Coastal Adventure',
     length: 7,
     cost: '$637',
@@ -958,7 +958,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db7',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'In Search of Iguassu',
     length: 17,
     cost: '$2252',
@@ -988,7 +988,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db5',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Galapagos Express',
     length: 7,
     cost: '$1402',
@@ -1008,7 +1008,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db8',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Colombia Multisport & Lost City Trek',
     length: 17,
     cost: '$2660',
@@ -1038,7 +1038,7 @@ const newTours = [
     primary_country_id: '5cabcae92c0db5000cfd6db6',
   },
   {
-    company: './images/G Adventures logo.png',
+    company: './images/g-adventures-logo.png',
     name: 'Amazon to the Andes',
     length: 12,
     cost: '$2749',
