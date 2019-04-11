@@ -17,7 +17,6 @@ module.exports = {
           response.status(409).json({
             message: 'Email address already exists'
           });
-        
         }
 
         // if a user is not found
