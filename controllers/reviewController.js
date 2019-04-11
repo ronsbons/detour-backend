@@ -59,9 +59,12 @@ module.exports = {
   // =====================  user routes =====================
   // add a review
   add: (request, response) => {
-    console.log(`add a review request: ${request.body}`);
-    // find the user who's creating the review in order to tie the review to the user id
-    db.User.findOne({_id: request.body.user_id})
+    console.log(`add a review request from: ${request.body.user_id}`);
+    console.log(`jwt middleware request.userId: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find the user who's creating the review in order to tie the review to the user id
+      db.User.findOne({_id: request.body.user_id})
       .exec()
       .then( (foundUser) => {
         console.log(`found user when creating a post: ${foundUser}`);
@@ -92,35 +95,45 @@ module.exports = {
         console.log(`db.User.findOne.catch error when creating a review: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 
   // edit a review
   // [] DO I NEED TO POPULATE USER AND/OR COUNTRY INFO...?
   edit: (request, response) => {
-    console.log(`edit post request ${request.body}`);
-    db.Reviews.findOneAndUpdate(
-      {_id: request.params.id},
-      // request.body will hold the content of the review to be updated
-      // can hold multiple properties
-      request.body,
-      // return the updated review
-      { new: true }
-    ).populate('user_id')
-      .exec()
-      .then( (updatedReview) => {
-        console.log(`updated review: ${updatedReview}`);
-        response.json(updatedReview);
-      }).catch( (error) => {
-        console.log(`update review error: ${error}`);
-        response.status(500).json({error: error});
-      });
+    console.log(`jwt middleware request.userId for edit review: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.Reviews.findOneAndUpdate(
+        {_id: request.params.id},
+        // request.body will hold the content of the review to be updated
+        // can hold multiple properties
+        request.body,
+        // return the updated review
+        { new: true }
+      ).populate('user_id')
+        .exec()
+        .then( (updatedReview) => {
+          console.log(`updated review: ${updatedReview}`);
+          response.json(updatedReview);
+        }).catch( (error) => {
+          console.log(`update review error: ${error}`);
+          response.status(500).json({error: error});
+        });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 
   // delete a review
   delete: (request, response) => {
-    console.log(`delete review`);
-    // find review by _id
-    db.Reviews.findOneAndDelete({_id: request.params.id})
+    console.log(`jwt middleware request.userId for delete review: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      // find review by _id
+      db.Reviews.findOneAndDelete({_id: request.params.id})
       .exec()
       .then( (deletedReview) => {
         console.log(`deleted review: ${deletedReview}`);
@@ -129,12 +142,17 @@ module.exports = {
         console.log(`delete review error: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 
   // get reviews by user
   showReviewsByUser: (request, response) => {
-    console.log(`get user's reviews`);
-    db.Reviews.find({user_id: request.params.user_id})
+    console.log(`jwt middleware request.userId for showReviewsByUser: ${request.userId}`);
+    // if there's a value to request.userId, then...
+    if (request.userId) {
+      db.Reviews.find({user_id: request.params.user_id})
       // pull in user info
       .populate('user_id')
       // pull in country info
@@ -147,5 +165,8 @@ module.exports = {
         console.log(`get user's reviews error: ${error}`);
         response.status(500).json({error: error});
       });
+    } else {
+      response.json('Protected route.  User is not verified.');
+    };
   },
 };
