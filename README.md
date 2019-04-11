@@ -47,15 +47,19 @@ User stories, wireframes, and the ERD can be found at this project's [Trello boa
 
 ## Unsolved Problems and Future Features
 - Editing user information
+
 The regex match conditions do not take effect upon editing a user.
 
 - Population of referenced models
+
 Review what information is being used on the frontend to populate only certain fields of a model rather than the whole object.
 
 - Routes for all CRUD functionality
+
 Write routes for all CRUD functionality for all models for full admin capability.
 
 - Route to summarize all available API endpoints
 
 - Data scraping
+
 To ensure all data is up-to-date and to add countries and tours dynamically vs. manually.
