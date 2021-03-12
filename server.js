@@ -31,15 +31,6 @@ app.use(express.static('public'));
 
 // test response to send to front end when it connects to backend
 app.get('/', (request, response) => response.send('hello, backend'));
-app.get('/tours/', (request, response) => {
-  db.Tours.find({}, (error, foundTours) => {
-    if (error) {
-      console.log(`can't get all tours: ${error}`);
-    }
-    response.json(foundTours);
-    console.log(`found all tours: ${foundTours}`);
-  })
-});
 
 
 app.listen(process.env.PORT || 3001, () =>
